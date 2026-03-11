@@ -25,6 +25,47 @@
 
 ---
 
+
+## 100 Agents 아키텍처
+
+```mermaid
+graph TB
+    subgraph Core["🎯 100 Agents"]
+        direction TB
+
+        subgraph Row1[" "]
+            direction LR
+            A["🏢 업무자동화<br/>15 Agents"]
+            B["📊 데이터&리서치<br/>15 Agents"]
+            C["✍️ 콘텐츠<br/>12 Agents"]
+        end
+
+        subgraph Row2[" "]
+            direction LR
+            D["💻 코드&개발<br/>12 Agents"]
+            E["🎧 고객서비스<br/>10 Agents"]
+            F["📈 세일즈&마케팅<br/>10 Agents"]
+        end
+
+        subgraph Row3[" "]
+            direction LR
+            G["🎓 교육&코칭<br/>8 Agents"]
+            H["🤝 멀티에이전트<br/>10 Agents"]
+            I["🔧 MCP&도구<br/>8 Agents"]
+        end
+    end
+
+    User["👤 문제 정의"] --> Core
+    Core --> Result["📦 실행 결과 + PM 인사이트"]
+
+    style Core fill:#f5f5f5,stroke:#333
+    style User fill:#e3f2fd,stroke:#2196F3
+    style Result fill:#e8f5e9,stroke:#4CAF50
+    style Row1 fill:none,stroke:none
+    style Row2 fill:none,stroke:none
+    style Row3 fill:none,stroke:none
+```
+
 ## 카테고리
 
 | # | 카테고리 | 설명 | Agent 수 |
