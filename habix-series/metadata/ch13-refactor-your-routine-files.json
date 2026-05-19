@@ -1,0 +1,20 @@
+{
+  "slug": "ch13-refactor-your-routine-files",
+  "chapter_number": "13",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "bonus",
+  "published_at": "2026-06-22",
+  "estimated_reading_time_min": 17,
+  "og_title": "한 달 후, 내 루틴 파일을 리팩토링하는 법 — 하네스 엔지니어링 Ch.13 | habix",
+  "og_description": "규칙을 늘리는 사람은 많지만 지우는 사람은 드뭅니다. 트랜스크립트 마이닝으로 CLAUDE.md를 한 달마다 정리하는 법.",
+  "og_image_alt": "하네스 엔지니어링 Ch.13 — CLAUDE.md 리팩토링 트랜스크립트 마이닝",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "30일 챌린지 끝났다면 이제 CLAUDE.md를 정리할 시간입니다",
+  "twitter_description": "살아 있는 문서는 한 달에 한 번 청소가 필요합니다. 트랜스크립트 마이닝으로 룰을 갱신하는 의식.",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch13-refactor-your-routine-files",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "트랜스크립트 마이닝 / 루틴 파일 리팩토링",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "capstone-30-day-routine-challenge"
+}

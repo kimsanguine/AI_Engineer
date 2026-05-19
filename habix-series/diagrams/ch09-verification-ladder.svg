@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">검증 사다리 4단계</title>
+  <desc id="desc">검증의 4단계 사다리. 가장 아래 0단계는 코드가 실행 가능한지, 1단계는 결정적 테스트, 2단계는 시나리오/E2E, 가장 위 3단계는 사람이 직접 클릭해 확인하는 것입니다. 위로 갈수록 비용이 크지만 신뢰도가 높습니다.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .stage-num { font-size: 24px; font-weight: 800; fill: #ffffff; }
+    .stage-title { font-size: 17px; font-weight: 700; fill: #1a1a1a; }
+    .stage-body { font-size: 13px; fill: #595959; }
+    .axis-label { font-size: 12px; font-weight: 600; fill: #8a8a8a; letter-spacing: 0.5px; }
+    .rail { stroke: #8b4513; stroke-width: 3; }
+    .rung { stroke: #8b4513; stroke-width: 2; }
+  </style>
+  <rect width="800" height="560" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">검증 사다리 4단계</text>
+  <text x="40" y="68" class="font-base muted">위로 갈수록 비용 크고 신뢰도 높음. 한 칸도 건너뛰지 말 것.</text>
+
+  <!-- Ladder rails -->
+  <line x1="155" y1="100" x2="155" y2="500" class="rail"/>
+  <line x1="220" y1="100" x2="220" y2="500" class="rail"/>
+
+  <!-- Ladder rungs (decorative) -->
+  <line x1="150" y1="145" x2="225" y2="145" class="rung"/>
+  <line x1="150" y1="245" x2="225" y2="245" class="rung"/>
+  <line x1="150" y1="345" x2="225" y2="345" class="rung"/>
+  <line x1="150" y1="445" x2="225" y2="445" class="rung"/>
+
+  <!-- Stage 3 (top) — 사람 검증 -->
+  <circle cx="187.5" cy="140" r="22" fill="#c1121f"/>
+  <text x="187.5" y="148" text-anchor="middle" class="font-base stage-num">3</text>
+  <rect x="260" y="115" width="500" height="60" rx="6" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="280" y="140" class="font-base stage-title">사람 검증 — 운영자가 직접 클릭</text>
+  <text x="280" y="160" class="font-base stage-body">실제 사용자 시나리오를 사람이 따라가본다. 비용 최대, 신뢰도 최대.</text>
+
+  <!-- Stage 2 -->
+  <circle cx="187.5" cy="240" r="22" fill="#f59e0b"/>
+  <text x="187.5" y="248" text-anchor="middle" class="font-base stage-num">2</text>
+  <rect x="260" y="215" width="500" height="60" rx="6" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="280" y="240" class="font-base stage-title">시나리오 / E2E — 브라우저가 클릭</text>
+  <text x="280" y="260" class="font-base stage-body">Playwright 같은 도구가 *진짜 사용자처럼* 누른다. Given/When/Then.</text>
+
+  <!-- Stage 1 -->
+  <circle cx="187.5" cy="340" r="22" fill="#2d6a4f"/>
+  <text x="187.5" y="348" text-anchor="middle" class="font-base stage-num">1</text>
+  <rect x="260" y="315" width="500" height="60" rx="6" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="280" y="340" class="font-base stage-title">결정적 검증 — 테스트 통과</text>
+  <text x="280" y="360" class="font-base stage-body">유닛/타입체크. 같은 입력 → 같은 결과. 빠르고 자동화 가능.</text>
+
+  <!-- Stage 0 (bottom) -->
+  <circle cx="187.5" cy="440" r="22" fill="#1e3a8a"/>
+  <text x="187.5" y="448" text-anchor="middle" class="font-base stage-num">0</text>
+  <rect x="260" y="415" width="500" height="60" rx="6" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="280" y="440" class="font-base stage-title">실행 가능 — 일단 켜진다</text>
+  <text x="280" y="460" class="font-base stage-body">빌드가 통과한다. 서버가 켜진다. 그러나 *맞는지*는 아직 모른다.</text>
+
+  <!-- Y-axis ascending labels -->
+  <text x="75" y="120" class="font-base axis-label">신뢰</text>
+  <text x="75" y="480" class="font-base axis-label">비용</text>
+  <path d="M95,460 L95,140" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3" fill="none"/>
+  <path d="M91,145 L95,138 L99,145" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- Bottom note -->
+  <rect x="40" y="510" width="720" height="40" rx="6" fill="#fef3c7"/>
+  <text x="56" y="535" class="font-base stage-title">AI의 *"됐어요"* 는 0단계까지. 1~3은 운영자가 책임집니다.</text>
+</svg>

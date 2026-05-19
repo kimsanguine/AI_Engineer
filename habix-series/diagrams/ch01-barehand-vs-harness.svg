@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="title desc">
+  <title id="title">맨손 AI vs 하네스 AI — 소요 시간·비용 비교</title>
+  <desc id="desc">맨손 AI는 20분에 $9를 쓰고 실패합니다. 하네스를 갖춘 AI는 6시간에 $200을 쓰지만 끝까지 성공합니다. 두 막대의 길이가 소요 시간을, 색이 결과(실패/성공)를 나타냅니다.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .h2 { font-size: 16px; font-weight: 600; fill: #1a1a1a; }
+    .label { font-size: 14px; font-weight: 500; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .small { font-size: 12px; fill: #8a8a8a; }
+    .bar-fail { fill: #c1121f; }
+    .bar-success { fill: #2d6a4f; }
+    .axis { stroke: #d4ccc0; stroke-width: 1; }
+    .num { font-size: 18px; font-weight: 700; fill: #ffffff; }
+  </style>
+  <rect width="800" height="460" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">맨손 AI vs 하네스 AI</text>
+  <text x="40" y="68" class="font-base muted">Anthropic Opus 4.5 — 동일 과제, 다른 환경</text>
+
+  <!-- Axis -->
+  <line x1="200" y1="120" x2="200" y2="380" class="axis"/>
+  <line x1="200" y1="380" x2="760" y2="380" class="axis"/>
+
+  <!-- Tick marks -->
+  <text x="200" y="402" text-anchor="middle" class="font-base small">0</text>
+  <text x="280" y="402" text-anchor="middle" class="font-base small">1시간</text>
+  <text x="380" y="402" text-anchor="middle" class="font-base small">2시간</text>
+  <text x="480" y="402" text-anchor="middle" class="font-base small">3시간</text>
+  <text x="580" y="402" text-anchor="middle" class="font-base small">4시간</text>
+  <text x="680" y="402" text-anchor="middle" class="font-base small">6시간</text>
+
+  <!-- Bar 1: 맨손 AI -->
+  <text x="40" y="170" class="font-base h2">맨손 AI</text>
+  <text x="40" y="190" class="font-base muted">CLAUDE.md 없음</text>
+  <rect x="200" y="150" width="27" height="56" rx="4" class="bar-fail"/>
+  <text x="240" y="186" class="font-base label" fill="#c1121f">20분 / $9</text>
+  <text x="240" y="206" class="font-base small">→ 실패. 빌드 통과만, 배포·검증 미완료.</text>
+
+  <!-- Bar 2: 하네스 AI -->
+  <text x="40" y="290" class="font-base h2">하네스 AI</text>
+  <text x="40" y="310" class="font-base muted">CLAUDE.md + progress.md + feature_list.json</text>
+  <rect x="200" y="270" width="480" height="56" rx="4" class="bar-success"/>
+  <text x="220" y="305" class="font-base num">6시간 / $200</text>
+  <text x="690" y="293" class="font-base label" fill="#2d6a4f">→ 성공</text>
+  <text x="690" y="312" class="font-base small">검증·배포·E2E까지 통과</text>
+
+  <!-- Key insight -->
+  <rect x="40" y="420" width="720" height="28" rx="4" fill="#fef3c7"/>
+  <text x="56" y="439" class="font-base label">시간·비용은 22배. 결과는 0 vs 1. 비싼 건 모델이 아니라 *하네스의 부재*입니다.</text>
+</svg>

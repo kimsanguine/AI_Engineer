@@ -1,0 +1,20 @@
+{
+  "slug": "ch02-set-up-the-workshop",
+  "chapter_number": "02",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": "2026-05-27",
+  "estimated_reading_time_min": 15,
+  "og_title": "AI에게 일 시키는 작업장 차리기 — 하네스 엔지니어링 Ch.02 | habix",
+  "og_description": "미슐랭 셰프를 데려다 놓고 가스레인지가 없는 주방. AI 하네스의 5개 방 — 의도·메모리·실행·검증·세션을 처음으로 공개합니다.",
+  "og_image_alt": "하네스 엔지니어링 Ch.02 — AI 작업장 5개의 방",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "Claude Pro 결제했는데 왜 결과가 갈아엎기 수준일까요",
+  "twitter_description": "모델도, IDE도 아닌 문제. AI가 들어와 일할 작업장 자체가 없었던 것입니다. 하네스 5개의 방 공개.",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch02-set-up-the-workshop",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "하네스 5개 방 구조",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch03-let-the-folder-remember"
+}

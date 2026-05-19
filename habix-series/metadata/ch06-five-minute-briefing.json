@@ -1,0 +1,20 @@
+{
+  "slug": "ch06-five-minute-briefing",
+  "chapter_number": "06",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": "2026-06-05",
+  "estimated_reading_time_min": 15,
+  "og_title": "시작 전 5분, AI에게 프로젝트 브리핑하기 — 하네스 엔지니어링 Ch.06 | habix",
+  "og_description": "새 세션은 카페에 새로 출근한 동료입니다. 5분 브리핑 없이 일을 시키면 30분이 날아갑니다. 세션 초기화 3단계.",
+  "og_image_alt": "하네스 엔지니어링 Ch.06 — 세션 브리핑 3단계",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "새 세션 열고 바로 본 작업 시키면 안 됩니다",
+  "twitter_description": "초기화는 본 작업이 아닙니다, 그래서 별도 단계여야 합니다. CLAUDE.md·progress.md·feature_list.json 읽히는 순서.",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch06-five-minute-briefing",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "세션 초기화 브리핑",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch07-stop-ai-from-overreaching"
+}

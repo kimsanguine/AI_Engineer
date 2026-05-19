@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI 관측 4개 창문 — 격자 일러스트</title>
+  <desc id="desc">AI의 세션을 들여다보는 4개 창문: 토큰 사용량, 도구 호출, 파일 변경, 트랜스크립트. 좌상단부터 시계 방향으로 배치된 2x2 격자.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .panel-title { font-size: 18px; font-weight: 700; fill: #1a1a1a; }
+    .panel-num { font-size: 14px; font-weight: 700; fill: #1e3a8a; letter-spacing: 1px; }
+    .body { font-size: 13px; fill: #444; }
+    .sample { font-size: 12px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; fill: #2d6a4f; }
+  </style>
+  <rect width="800" height="540" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">AI 관측 4개 창문</text>
+  <text x="40" y="68" class="font-base muted">한 창은 *실행*, 다른 창은 *관측*. 두 창이 있어야 표류를 잡습니다.</text>
+
+  <!-- Top-left: 토큰 -->
+  <rect x="40" y="100" width="350" height="190" rx="8" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="60" y="128" class="font-base panel-num">01</text>
+  <text x="60" y="156" class="font-base panel-title">토큰 사용량</text>
+  <text x="60" y="180" class="font-base body">한 세션이 얼마나 비싼지.</text>
+  <text x="60" y="200" class="font-base body">컨텍스트 윈도가 차오르는 속도.</text>
+  <line x1="60" y1="220" x2="370" y2="220" stroke="#eee5d6" stroke-width="1"/>
+  <text x="60" y="244" class="font-base sample">12,400 / 200,000 tokens (6.2%)</text>
+  <text x="60" y="266" class="font-base muted">→ 임계 50% 넘으면 새 세션</text>
+
+  <!-- Top-right: 도구 호출 -->
+  <rect x="410" y="100" width="350" height="190" rx="8" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="430" y="128" class="font-base panel-num">02</text>
+  <text x="430" y="156" class="font-base panel-title">도구 호출</text>
+  <text x="430" y="180" class="font-base body">AI가 *무엇을* 실행하고 있는지.</text>
+  <text x="430" y="200" class="font-base body">한 명령에 몇 개 도구를 부르는지.</text>
+  <line x1="430" y1="220" x2="740" y2="220" stroke="#eee5d6" stroke-width="1"/>
+  <text x="430" y="244" class="font-base sample">read × 5, edit × 3, bash × 2</text>
+  <text x="430" y="266" class="font-base muted">→ 한 명령에 10+면 과욕 의심</text>
+
+  <!-- Bottom-left: 파일 변경 -->
+  <rect x="40" y="310" width="350" height="190" rx="8" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="60" y="338" class="font-base panel-num">03</text>
+  <text x="60" y="366" class="font-base panel-title">파일 변경</text>
+  <text x="60" y="390" class="font-base body">실제로 *어떤* 파일이 손댄지.</text>
+  <text x="60" y="410" class="font-base body">예상 밖 파일이 끼지 않았는지.</text>
+  <line x1="60" y1="430" x2="370" y2="430" stroke="#eee5d6" stroke-width="1"/>
+  <text x="60" y="454" class="font-base sample">3 changed: settings/index.tsx ...</text>
+  <text x="60" y="476" class="font-base muted">→ 17개 파일 변경? 정지 신호</text>
+
+  <!-- Bottom-right: 트랜스크립트 -->
+  <rect x="410" y="310" width="350" height="190" rx="8" fill="#ffffff" stroke="#d4ccc0" stroke-width="1.5"/>
+  <text x="430" y="338" class="font-base panel-num">04</text>
+  <text x="430" y="366" class="font-base panel-title">트랜스크립트</text>
+  <text x="430" y="390" class="font-base body">"내가 *어떻게* 시켰는지"의 기록.</text>
+  <text x="430" y="410" class="font-base body">반복 교정을 발견하는 곳.</text>
+  <line x1="430" y1="430" x2="740" y2="430" stroke="#eee5d6" stroke-width="1"/>
+  <text x="430" y="454" class="font-base sample">"마스킹" 교정 12회 — Ch13 미닝</text>
+  <text x="430" y="476" class="font-base muted">→ CLAUDE.md 규칙으로 승격</text>
+</svg>

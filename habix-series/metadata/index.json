@@ -1,0 +1,95 @@
+{
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "tagline": "Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다.",
+  "target_audience": ["비개발자", "1인 빌더", "PM", "마케터"],
+  "total_lectures": 17,
+  "base_url": "https://habix.ai/playbook/harness-engineering/",
+  "lectures": [
+    {
+      "slug": "ch00a-the-mindset-of-delegation",
+      "chapter_number": "00a",
+      "og_title": "AI에게 일 시킨다는 것 — 위임의 사고방식 P-01 | habix"
+    },
+    {
+      "slug": "ch00b-15-words-week-one",
+      "chapter_number": "00b",
+      "og_title": "1주차에 꼭 아는 15개 단어 — 하네스 엔지니어링 P-02 | habix"
+    },
+    {
+      "slug": "ch00c-pick-your-tool-stack",
+      "chapter_number": "00c",
+      "og_title": "내 도구 스택 정하기 — 하네스 엔지니어링 P-03 | habix"
+    },
+    {
+      "slug": "ch01-why-smart-ai-cant-finish",
+      "chapter_number": "01",
+      "og_title": "똑똑한 AI가 끝까지 못 끝내는 이유 — 하네스 엔지니어링 Ch.01 | habix"
+    },
+    {
+      "slug": "ch02-set-up-the-workshop",
+      "chapter_number": "02",
+      "og_title": "AI에게 일 시키는 작업장 차리기 — 하네스 엔지니어링 Ch.02 | habix"
+    },
+    {
+      "slug": "ch03-let-the-folder-remember",
+      "chapter_number": "03",
+      "og_title": "채팅창 말고 폴더가 기억하게 하라 — 하네스 엔지니어링 Ch.03 | habix"
+    },
+    {
+      "slug": "ch04-claude-md-one-page",
+      "chapter_number": "04",
+      "og_title": "CLAUDE.md 한 장으로 AI에게 프로젝트 가르치기 — 하네스 엔지니어링 Ch.04 | habix"
+    },
+    {
+      "slug": "ch05-leave-notes-for-tomorrow",
+      "chapter_number": "05",
+      "og_title": "AI는 어제 한 일을 잊는다 — 메모를 남겨라 | habix"
+    },
+    {
+      "slug": "ch06-five-minute-briefing",
+      "chapter_number": "06",
+      "og_title": "시작 전 5분, AI에게 프로젝트 브리핑하기 — 하네스 엔지니어링 Ch.06 | habix"
+    },
+    {
+      "slug": "ch07-stop-ai-from-overreaching",
+      "chapter_number": "07",
+      "og_title": "AI가 일 키우는 걸 막는 법 — 하네스 엔지니어링 Ch.07 | habix"
+    },
+    {
+      "slug": "ch08-feature-list-changes-everything",
+      "chapter_number": "08",
+      "og_title": "할 일 한 장이 모든 것을 바꾼다 — 하네스 엔지니어링 Ch.08 | habix"
+    },
+    {
+      "slug": "ch09-no-victory-without-evidence",
+      "chapter_number": "09",
+      "og_title": "'됐어요'를 믿지 마라, 증거를 요구하라 — 하네스 엔지니어링 Ch.09 | habix"
+    },
+    {
+      "slug": "ch10-click-like-a-real-user",
+      "chapter_number": "10",
+      "og_title": "실제 사용자처럼 클릭하는 자동 테스트 — 하네스 엔지니어링 Ch.10 | habix"
+    },
+    {
+      "slug": "ch11-window-into-ai",
+      "chapter_number": "11",
+      "og_title": "AI가 뭘 했는지 들여다보는 창문 — 하네스 엔지니어링 Ch.11 | habix"
+    },
+    {
+      "slug": "ch12-clean-exit",
+      "chapter_number": "12",
+      "og_title": "내일의 나를 위해 책상 정리하고 나가기 — 하네스 엔지니어링 Ch.12 | habix"
+    },
+    {
+      "slug": "capstone-30-day-routine-challenge",
+      "chapter_number": "capstone",
+      "og_title": "내 첫 30일 루틴 챌린지 — 하네스 엔지니어링 캡스톤 | habix"
+    },
+    {
+      "slug": "ch13-refactor-your-routine-files",
+      "chapter_number": "13",
+      "og_title": "한 달 후, 내 루틴 파일을 리팩토링하는 법 — 하네스 엔지니어링 Ch.13 | habix"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "capstone-30-day-routine-challenge",
+  "chapter_number": "capstone",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "capstone",
+  "published_at": "2026-06-24",
+  "estimated_reading_time_min": 20,
+  "og_title": "내 첫 30일 루틴 챌린지 — 하네스 엔지니어링 캡스톤 | habix",
+  "og_description": "읽기는 끝났습니다. 이제 내 루틴 하나를 골라 30일 동안 에이전트에게 옮깁니다. 4주 로드맵과 후보 7가지 공개.",
+  "og_image_alt": "하네스 엔지니어링 캡스톤 — 30일 루틴 챌린지 4주 로드맵",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "이제 읽기 말고 30일 동안 실제로 해볼 차례입니다",
+  "twitter_description": "지속 가능한 자동화 한 개를 가진 사람이 되는 30일. 루틴 챌린지 4주 로드맵 공개.",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/capstone-30-day-routine-challenge",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "30일 루틴 자동화 챌린지",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": null
+}

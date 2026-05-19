@@ -1,0 +1,323 @@
+{
+  "series": {
+    "slug": "harness-engineering",
+    "title": "Harness Engineering Playbook",
+    "subtitle": "Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다",
+    "url": "/playbook/harness-engineering",
+    "menu_label": "Harness Engineering Playbook",
+    "total_chapters": 17,
+    "total_reading_time_min": 259,
+    "last_updated": "2026-05-25"
+  },
+  "parts": [
+    {
+      "id": "prologue",
+      "label": "서장",
+      "subtitle": "마인드셋과 도구",
+      "chapters": [
+        "ch00a-the-mindset-of-delegation",
+        "ch00b-15-words-week-one",
+        "ch00c-pick-your-tool-stack"
+      ]
+    },
+    {
+      "id": "part-1",
+      "label": "1부. 5개 방",
+      "subtitle": "작업장 차리기",
+      "chapters": [
+        "ch01-why-smart-ai-cant-finish",
+        "ch02-set-up-the-workshop",
+        "ch03-let-the-folder-remember",
+        "ch04-claude-md-one-page",
+        "ch05-leave-notes-for-tomorrow",
+        "ch06-five-minute-briefing"
+      ]
+    },
+    {
+      "id": "part-2",
+      "label": "2부. 공통 도구",
+      "subtitle": "매일 쓰는 자산",
+      "chapters": [
+        "ch07-stop-ai-from-overreaching",
+        "ch08-feature-list-changes-everything",
+        "ch09-no-victory-without-evidence",
+        "ch10-click-like-a-real-user"
+      ]
+    },
+    {
+      "id": "part-3",
+      "label": "3부. 매일의 루틴",
+      "subtitle": "멈춤·관측·정리",
+      "chapters": [
+        "ch11-window-into-ai",
+        "ch12-clean-exit",
+        "ch13-refactor-your-routine-files"
+      ]
+    },
+    {
+      "id": "graduation",
+      "label": "졸업",
+      "subtitle": "30일 챌린지",
+      "chapters": [
+        "capstone-30-day-routine-challenge"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ch00a-the-mindset-of-delegation",
+      "chapter_number": "00a",
+      "title": "AI에게 일 시킨다는 것 — 위임의 사고방식 P-01 | habix",
+      "url": "/playbook/harness-engineering/ch00a-the-mindset-of-delegation",
+      "og_image": "/assets/harness-engineering/og/ch00a-the-mindset-of-delegation.png",
+      "reading_time_min": 12,
+      "published_at": "2026-05-25",
+      "part_id": "prologue",
+      "position_in_part": 1,
+      "position_in_series": 1,
+      "prev_slug": null,
+      "next_slug": "ch00b-15-words-week-one",
+      "key_concept": "위임 사고방식"
+    },
+    {
+      "slug": "ch00b-15-words-week-one",
+      "chapter_number": "00b",
+      "title": "1주차에 꼭 아는 15개 단어 — 하네스 엔지니어링 P-02 | habix",
+      "url": "/playbook/harness-engineering/ch00b-15-words-week-one",
+      "og_image": "/assets/harness-engineering/og/ch00b-15-words-week-one.png",
+      "reading_time_min": 13,
+      "published_at": "2026-05-25",
+      "part_id": "prologue",
+      "position_in_part": 2,
+      "position_in_series": 2,
+      "prev_slug": "ch00a-the-mindset-of-delegation",
+      "next_slug": "ch00c-pick-your-tool-stack",
+      "key_concept": "AI 필수 용어 15개"
+    },
+    {
+      "slug": "ch00c-pick-your-tool-stack",
+      "chapter_number": "00c",
+      "title": "내 도구 스택 정하기 — 하네스 엔지니어링 P-03 | habix",
+      "url": "/playbook/harness-engineering/ch00c-pick-your-tool-stack",
+      "og_image": "/assets/harness-engineering/og/ch00c-pick-your-tool-stack.png",
+      "reading_time_min": 13,
+      "published_at": "2026-05-25",
+      "part_id": "prologue",
+      "position_in_part": 3,
+      "position_in_series": 3,
+      "prev_slug": "ch00b-15-words-week-one",
+      "next_slug": "ch01-why-smart-ai-cant-finish",
+      "key_concept": "도구 스택 선택"
+    },
+    {
+      "slug": "ch01-why-smart-ai-cant-finish",
+      "chapter_number": "01",
+      "title": "똑똑한 AI가 끝까지 못 끝내는 이유 — 하네스 엔지니어링 Ch.01 | habix",
+      "url": "/playbook/harness-engineering/ch01-why-smart-ai-cant-finish",
+      "og_image": "/assets/harness-engineering/og/ch01-why-smart-ai-cant-finish.png",
+      "reading_time_min": 15,
+      "published_at": "2026-05-25",
+      "part_id": "part-1",
+      "position_in_part": 1,
+      "position_in_series": 4,
+      "prev_slug": "ch00c-pick-your-tool-stack",
+      "next_slug": "ch02-set-up-the-workshop",
+      "key_concept": "하네스(Harness) 개념"
+    },
+    {
+      "slug": "ch02-set-up-the-workshop",
+      "chapter_number": "02",
+      "title": "AI에게 일 시키는 작업장 차리기 — 하네스 엔지니어링 Ch.02 | habix",
+      "url": "/playbook/harness-engineering/ch02-set-up-the-workshop",
+      "og_image": "/assets/harness-engineering/og/ch02-set-up-the-workshop.png",
+      "reading_time_min": 15,
+      "published_at": "2026-05-27",
+      "part_id": "part-1",
+      "position_in_part": 2,
+      "position_in_series": 5,
+      "prev_slug": "ch01-why-smart-ai-cant-finish",
+      "next_slug": "ch03-let-the-folder-remember",
+      "key_concept": "하네스 5개 방 구조"
+    },
+    {
+      "slug": "ch03-let-the-folder-remember",
+      "chapter_number": "03",
+      "title": "채팅창 말고 폴더가 기억하게 하라 — 하네스 엔지니어링 Ch.03 | habix",
+      "url": "/playbook/harness-engineering/ch03-let-the-folder-remember",
+      "og_image": "/assets/harness-engineering/og/ch03-let-the-folder-remember.png",
+      "reading_time_min": 14,
+      "published_at": "2026-05-29",
+      "part_id": "part-1",
+      "position_in_part": 3,
+      "position_in_series": 6,
+      "prev_slug": "ch02-set-up-the-workshop",
+      "next_slug": "ch04-claude-md-one-page",
+      "key_concept": "시스템 오브 레코드(System of Record)"
+    },
+    {
+      "slug": "ch04-claude-md-one-page",
+      "chapter_number": "04",
+      "title": "CLAUDE.md 한 장으로 AI에게 프로젝트 가르치기 — 하네스 엔지니어링 Ch.04 | habix",
+      "url": "/playbook/harness-engineering/ch04-claude-md-one-page",
+      "og_image": "/assets/harness-engineering/og/ch04-claude-md-one-page.png",
+      "reading_time_min": 18,
+      "published_at": "2026-06-01",
+      "part_id": "part-1",
+      "position_in_part": 4,
+      "position_in_series": 7,
+      "prev_slug": "ch03-let-the-folder-remember",
+      "next_slug": "ch05-leave-notes-for-tomorrow",
+      "key_concept": "CLAUDE.md 작성법"
+    },
+    {
+      "slug": "ch05-leave-notes-for-tomorrow",
+      "chapter_number": "05",
+      "title": "AI는 어제 한 일을 잊는다 — 메모를 남겨라 | habix",
+      "url": "/playbook/harness-engineering/ch05-leave-notes-for-tomorrow",
+      "og_image": "/assets/harness-engineering/og/ch05-leave-notes-for-tomorrow.png",
+      "reading_time_min": 15,
+      "published_at": "2026-06-03",
+      "part_id": "part-1",
+      "position_in_part": 5,
+      "position_in_series": 8,
+      "prev_slug": "ch04-claude-md-one-page",
+      "next_slug": "ch06-five-minute-briefing",
+      "key_concept": "progress.md 세션 메모"
+    },
+    {
+      "slug": "ch06-five-minute-briefing",
+      "chapter_number": "06",
+      "title": "시작 전 5분, AI에게 프로젝트 브리핑하기 — 하네스 엔지니어링 Ch.06 | habix",
+      "url": "/playbook/harness-engineering/ch06-five-minute-briefing",
+      "og_image": "/assets/harness-engineering/og/ch06-five-minute-briefing.png",
+      "reading_time_min": 15,
+      "published_at": "2026-06-05",
+      "part_id": "part-1",
+      "position_in_part": 6,
+      "position_in_series": 9,
+      "prev_slug": "ch05-leave-notes-for-tomorrow",
+      "next_slug": "ch07-stop-ai-from-overreaching",
+      "key_concept": "세션 초기화 브리핑"
+    },
+    {
+      "slug": "ch07-stop-ai-from-overreaching",
+      "chapter_number": "07",
+      "title": "AI가 일 키우는 걸 막는 법 — 하네스 엔지니어링 Ch.07 | habix",
+      "url": "/playbook/harness-engineering/ch07-stop-ai-from-overreaching",
+      "og_image": "/assets/harness-engineering/og/ch07-stop-ai-from-overreaching.png",
+      "reading_time_min": 15,
+      "published_at": "2026-06-08",
+      "part_id": "part-2",
+      "position_in_part": 1,
+      "position_in_series": 10,
+      "prev_slug": "ch06-five-minute-briefing",
+      "next_slug": "ch08-feature-list-changes-everything",
+      "key_concept": "제약·정지 규칙·작업 분해"
+    },
+    {
+      "slug": "ch08-feature-list-changes-everything",
+      "chapter_number": "08",
+      "title": "할 일 한 장이 모든 것을 바꾼다 — 하네스 엔지니어링 Ch.08 | habix",
+      "url": "/playbook/harness-engineering/ch08-feature-list-changes-everything",
+      "og_image": "/assets/harness-engineering/og/ch08-feature-list-changes-everything.png",
+      "reading_time_min": 15,
+      "published_at": "2026-06-10",
+      "part_id": "part-2",
+      "position_in_part": 2,
+      "position_in_series": 11,
+      "prev_slug": "ch07-stop-ai-from-overreaching",
+      "next_slug": "ch09-no-victory-without-evidence",
+      "key_concept": "feature_list.json 작업 관리"
+    },
+    {
+      "slug": "ch09-no-victory-without-evidence",
+      "chapter_number": "09",
+      "title": "'됐어요'를 믿지 마라, 증거를 요구하라 — 하네스 엔지니어링 Ch.09 | habix",
+      "url": "/playbook/harness-engineering/ch09-no-victory-without-evidence",
+      "og_image": "/assets/harness-engineering/og/ch09-no-victory-without-evidence.png",
+      "reading_time_min": 16,
+      "published_at": "2026-06-12",
+      "part_id": "part-2",
+      "position_in_part": 3,
+      "position_in_series": 12,
+      "prev_slug": "ch08-feature-list-changes-everything",
+      "next_slug": "ch10-click-like-a-real-user",
+      "key_concept": "검증 사다리 / 조기 완료 선언 방지"
+    },
+    {
+      "slug": "ch10-click-like-a-real-user",
+      "chapter_number": "10",
+      "title": "실제 사용자처럼 클릭하는 자동 테스트 — 하네스 엔지니어링 Ch.10 | habix",
+      "url": "/playbook/harness-engineering/ch10-click-like-a-real-user",
+      "og_image": "/assets/harness-engineering/og/ch10-click-like-a-real-user.png",
+      "reading_time_min": 15,
+      "published_at": "2026-06-15",
+      "part_id": "part-2",
+      "position_in_part": 4,
+      "position_in_series": 13,
+      "prev_slug": "ch09-no-victory-without-evidence",
+      "next_slug": "ch11-window-into-ai",
+      "key_concept": "E2E 자동 테스트 / Playwright MCP"
+    },
+    {
+      "slug": "ch11-window-into-ai",
+      "chapter_number": "11",
+      "title": "AI가 뭘 했는지 들여다보는 창문 — 하네스 엔지니어링 Ch.11 | habix",
+      "url": "/playbook/harness-engineering/ch11-window-into-ai",
+      "og_image": "/assets/harness-engineering/og/ch11-window-into-ai.png",
+      "reading_time_min": 16,
+      "published_at": "2026-06-17",
+      "part_id": "part-3",
+      "position_in_part": 1,
+      "position_in_series": 14,
+      "prev_slug": "ch10-click-like-a-real-user",
+      "next_slug": "ch12-clean-exit",
+      "key_concept": "관측 가능성(Observability)"
+    },
+    {
+      "slug": "ch12-clean-exit",
+      "chapter_number": "12",
+      "title": "내일의 나를 위해 책상 정리하고 나가기 — 하네스 엔지니어링 Ch.12 | habix",
+      "url": "/playbook/harness-engineering/ch12-clean-exit",
+      "og_image": "/assets/harness-engineering/og/ch12-clean-exit.png",
+      "reading_time_min": 15,
+      "published_at": "2026-06-19",
+      "part_id": "part-3",
+      "position_in_part": 2,
+      "position_in_series": 15,
+      "prev_slug": "ch11-window-into-ai",
+      "next_slug": "ch13-refactor-your-routine-files",
+      "key_concept": "클린 세션 종료"
+    },
+    {
+      "slug": "ch13-refactor-your-routine-files",
+      "chapter_number": "13",
+      "title": "한 달 후, 내 루틴 파일을 리팩토링하는 법 — 하네스 엔지니어링 Ch.13 | habix",
+      "url": "/playbook/harness-engineering/ch13-refactor-your-routine-files",
+      "og_image": "/assets/harness-engineering/og/ch13-refactor-your-routine-files.png",
+      "reading_time_min": 17,
+      "published_at": "2026-06-22",
+      "part_id": "part-3",
+      "position_in_part": 3,
+      "position_in_series": 16,
+      "prev_slug": "ch12-clean-exit",
+      "next_slug": "capstone-30-day-routine-challenge",
+      "key_concept": "트랜스크립트 마이닝 / 루틴 파일 리팩토링"
+    },
+    {
+      "slug": "capstone-30-day-routine-challenge",
+      "chapter_number": "capstone",
+      "title": "내 첫 30일 루틴 챌린지 — 하네스 엔지니어링 캡스톤 | habix",
+      "url": "/playbook/harness-engineering/capstone-30-day-routine-challenge",
+      "og_image": "/assets/harness-engineering/og/capstone-30-day-routine-challenge.png",
+      "reading_time_min": 20,
+      "published_at": "2026-06-24",
+      "part_id": "graduation",
+      "position_in_part": 1,
+      "position_in_series": 17,
+      "prev_slug": "ch13-refactor-your-routine-files",
+      "next_slug": null,
+      "key_concept": "30일 루틴 자동화 챌린지"
+    }
+  ]
+}
