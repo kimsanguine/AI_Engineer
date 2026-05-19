@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "AI에게 작은 일 하나 시켰는데 전체가 갈아엎혔다면",
   "twitter_description": "AI는 일을 키우고 끝맺지 못합니다. 제약과 정지 규칙을 묶어두지 않으면 디자인이 통째로 바뀝니다.",
-  "canonical_url": "/lectures/ch07-stop-ai-from-overreaching",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch07-stop-ai-from-overreaching",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "제약·정지 규칙·작업 분해",
   "series_cta": "루틴팩 v1 다운로드",

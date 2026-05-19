@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "테스트 다 통과했는데 왜 사용자 앞에서 깨질까요",
   "twitter_description": "단위 테스트는 부품을, E2E는 흐름을 봅니다. 사용자는 부품을 사지 않습니다. Playwright MCP 활용법.",
-  "canonical_url": "/lectures/ch10-click-like-a-real-user",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch10-click-like-a-real-user",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "E2E 자동 테스트 / Playwright MCP",
   "series_cta": "루틴팩 v1 다운로드",

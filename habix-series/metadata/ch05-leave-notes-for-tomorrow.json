@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "월요일마다 AI에게 처음부터 설명하는 분께",
   "twitter_description": "5분 메모가 다음 세션 첫 명령을 한 줄로 줄입니다. progress.md 사용법 완전 공개.",
-  "canonical_url": "/lectures/ch05-leave-notes-for-tomorrow",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch05-leave-notes-for-tomorrow",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "progress.md 세션 메모",
   "series_cta": "루틴팩 v1 다운로드",

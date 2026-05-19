@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "AI 도구 뭘 써야 할지 모르겠다면 이 글을 읽으세요",
   "twitter_description": "Lovable, Cursor, Claude Code, Replit… 다 좋지만 다 다릅니다. 내 페르소나에 맞는 스택 고르는 법.",
-  "canonical_url": "/lectures/ch00c-pick-your-tool-stack",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch00c-pick-your-tool-stack",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "도구 스택 선택",
   "series_cta": "루틴팩 v1 다운로드",

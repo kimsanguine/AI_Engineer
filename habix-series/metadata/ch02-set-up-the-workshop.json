@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "Claude Pro 결제했는데 왜 결과가 갈아엎기 수준일까요",
   "twitter_description": "모델도, IDE도 아닌 문제. AI가 들어와 일할 작업장 자체가 없었던 것입니다. 하네스 5개의 방 공개.",
-  "canonical_url": "/lectures/ch02-set-up-the-workshop",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch02-set-up-the-workshop",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "하네스 5개 방 구조",
   "series_cta": "루틴팩 v1 다운로드",

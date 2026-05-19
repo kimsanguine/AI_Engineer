@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "AI가 '완료했습니다'라고 했는데 친구 앞에서 깨졌습니다",
   "twitter_description": "검증할 수 없는 일은 위임이 아닙니다, 희망입니다. 검증 명령 없는 기능은 끝낼 수 없는 기능입니다.",
-  "canonical_url": "/lectures/ch09-no-victory-without-evidence",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch09-no-victory-without-evidence",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "검증 사다리 / 조기 완료 선언 방지",
   "series_cta": "루틴팩 v1 다운로드",

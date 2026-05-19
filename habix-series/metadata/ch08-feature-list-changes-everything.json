@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "30개 항목이 전부 In Progress였던 그 화요일",
   "twitter_description": "AI가 자기 작업 상태를 스스로 갱신할 수 있는 한 장이 필요합니다. feature_list.json 전체 구조 공개.",
-  "canonical_url": "/lectures/ch08-feature-list-changes-everything",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch08-feature-list-changes-everything",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "feature_list.json 작업 관리",
   "series_cta": "루틴팩 v1 다운로드",

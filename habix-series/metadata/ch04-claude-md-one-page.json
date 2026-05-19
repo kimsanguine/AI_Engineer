@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "매번 같은 지시를 반복하고 있다면 이 파일을 만드세요",
   "twitter_description": "채팅창 = 휘발성, CLAUDE.md = 자산. AI가 출근하면 가장 먼저 펴보는 노트를 만드는 법.",
-  "canonical_url": "/lectures/ch04-claude-md-one-page",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch04-claude-md-one-page",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "CLAUDE.md 작성법",
   "series_cta": "루틴팩 v1 다운로드",

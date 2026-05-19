@@ -4,7 +4,7 @@
   "tagline": "Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다.",
   "target_audience": ["비개발자", "1인 빌더", "PM", "마케터"],
   "total_lectures": 17,
-  "base_url": "https://habix.ai/lectures/",
+  "base_url": "https://habix.ai/playbook/harness-engineering/",
   "lectures": [
     {
       "slug": "ch00a-the-mindset-of-delegation",

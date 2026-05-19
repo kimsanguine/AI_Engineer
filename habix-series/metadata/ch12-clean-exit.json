@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "금요일 저녁 노트북 그냥 닫으면 월요일 오전이 망가집니다",
   "twitter_description": "세션을 닫는 것은 작업입니다. session-end-checklist.md 10가지를 공개합니다.",
-  "canonical_url": "/lectures/ch12-clean-exit",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch12-clean-exit",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "클린 세션 종료",
   "series_cta": "루틴팩 v1 다운로드",

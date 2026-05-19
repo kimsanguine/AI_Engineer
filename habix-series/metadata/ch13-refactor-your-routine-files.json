@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "30일 챌린지 끝났다면 이제 CLAUDE.md를 정리할 시간입니다",
   "twitter_description": "살아 있는 문서는 한 달에 한 번 청소가 필요합니다. 트랜스크립트 마이닝으로 룰을 갱신하는 의식.",
-  "canonical_url": "/lectures/ch13-refactor-your-routine-files",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch13-refactor-your-routine-files",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "트랜스크립트 마이닝 / 루틴 파일 리팩토링",
   "series_cta": "루틴팩 v1 다운로드",

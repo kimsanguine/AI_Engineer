@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "AI에게 일을 맡기려면 먼저 사고방식을 바꿔야 합니다",
   "twitter_description": "위임은 기술이 아니라 사고방식입니다. 1인 빌더와 PM을 위한 하네스 엔지니어링 첫 번째 편.",
-  "canonical_url": "/lectures/ch00a-the-mindset-of-delegation",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch00a-the-mindset-of-delegation",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "위임 사고방식",
   "series_cta": "루틴팩 v1 다운로드",

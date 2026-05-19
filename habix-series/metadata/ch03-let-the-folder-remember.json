@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "ChatGPT에서 두 시간 짠 가격 정책, 월요일 아침에 증발했습니다",
   "twitter_description": "채팅창은 작업 흔적이지 작업장이 아닙니다. 진실의 원천을 폴더로 옮기는 방법.",
-  "canonical_url": "/lectures/ch03-let-the-folder-remember",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch03-let-the-folder-remember",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "시스템 오브 레코드(System of Record)",
   "series_cta": "루틴팩 v1 다운로드",

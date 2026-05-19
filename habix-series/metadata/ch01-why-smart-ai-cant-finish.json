@@ -12,7 +12,7 @@
   "twitter_card": "summary_large_image",
   "twitter_title": "AI가 70%에서 매번 무너지는 진짜 이유",
   "twitter_description": "모델 문제가 아닙니다. AI에게 일할 환경을 안 만들어 줬기 때문입니다. 하네스 엔지니어링 Ch.01.",
-  "canonical_url": "/lectures/ch01-why-smart-ai-cant-finish",
+  "canonical_url": "https://habix.ai/playbook/harness-engineering/ch01-why-smart-ai-cant-finish",
   "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
   "key_concept": "하네스(Harness) 개념",
   "series_cta": "루틴팩 v1 다운로드",
