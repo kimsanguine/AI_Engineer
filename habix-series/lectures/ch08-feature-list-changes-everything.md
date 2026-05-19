@@ -36,15 +36,6 @@ AI가 자기 작업 상태를 *스스로 갱신할 수 있는* 한 장이 필요
 
 ## feature_list.json 한 항목의 4칸
 
-<!-- SCREENSHOT v1.1
-  위치: ch08-feature-list-changes-everything.md:38
-  before: 노션 칸반 30개 "In Progress" 상태
-  after: feature_list.json — 5개 항목 (3 passing, 1 failing, 1 blocked)
--->
-| | Before | After |
-|---|---|---|
-| **스크린샷** | *노션 칸반 30개 "In Progress" 상태* *(v1.1 예정)* | *feature_list.json — 5개 항목 (3 passing, 1 failing, 1 blocked)* *(v1.1 예정)* |
-
 우리 루틴팩의 실제 구조입니다.
 
 | 칸 | 무엇 | 예시 |

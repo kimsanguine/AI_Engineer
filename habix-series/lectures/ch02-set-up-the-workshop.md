@@ -65,15 +65,6 @@
 
 ## 비개발자가 작업장을 차린다는 것
 
-<!-- SCREENSHOT v1.1
-  위치: ch02-set-up-the-workshop.md:56
-  before: 빈 프로젝트 폴더 (파일 없음)
-  after: CLAUDE.md + progress.md + feature_list.json 이 채워진 폴더
--->
-| | Before | After |
-|---|---|---|
-| **스크린샷** | *빈 프로젝트 폴더 (파일 없음)* *(v1.1 예정)* | *CLAUDE.md + progress.md + feature_list.json 이 채워진 폴더* *(v1.1 예정)* |
-
 거창하지 않습니다. 시작은 딱 다섯 가지입니다.
 
 1. **프로젝트 폴더 하나** — 데스크탑에 `my-project/` 같은 폴더를 만듭니다. 노션이나 드라이브 말고, 로컬 폴더입니다.
