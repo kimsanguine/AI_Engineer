@@ -1,0 +1,20 @@
+{
+  "slug": "ch00b-15-words-week-one",
+  "chapter_number": "00b",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "prologue",
+  "published_at": null,
+  "estimated_reading_time_min": 13,
+  "og_title": "1주차에 꼭 아는 15개 단어 — 하네스 엔지니어링 P-02 | habix",
+  "og_description": "코드는 몰라도 됩니다. 이 15개 단어만 알면 첫 실패에서 스스로 빠져나올 수 있습니다. 비개발자를 위한 AI 용어 정리.",
+  "og_image_alt": "하네스 엔지니어링 — 1주차 필수 15단어",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "AI 도구 쓰다 막혔다면, 이 15단어만 알면 됩니다",
+  "twitter_description": "토큰, 컨텍스트 윈도우, 에이전트… 에러 메시지의 그 단어들. 비유 한 줄로 한 번에 정리.",
+  "canonical_url": "/lectures/ch00b-15-words-week-one",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "AI 필수 용어 15개",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch00c-pick-your-tool-stack"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ch01-why-smart-ai-cant-finish",
+  "chapter_number": "01",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 15,
+  "og_title": "똑똑한 AI가 끝까지 못 끝내는 이유 — 하네스 엔지니어링 Ch.01 | habix",
+  "og_description": "Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다. 같은 모델, 20분 실패 vs 6시간 성공의 차이.",
+  "og_image_alt": "하네스 엔지니어링 Ch.01 — 맨손 AI vs 하네스 AI 비교",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "AI가 70%에서 매번 무너지는 진짜 이유",
+  "twitter_description": "모델 문제가 아닙니다. AI에게 일할 환경을 안 만들어 줬기 때문입니다. 하네스 엔지니어링 Ch.01.",
+  "canonical_url": "/lectures/ch01-why-smart-ai-cant-finish",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "하네스(Harness) 개념",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch02-set-up-the-workshop"
+}
