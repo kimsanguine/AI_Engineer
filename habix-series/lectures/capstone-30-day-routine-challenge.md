@@ -148,9 +148,9 @@ PM 출신 운영자의 팁 하나. 5번 질문에 "확장"이라고 적고 싶�
 
 마지막 글은 운영자가 가장 좋아하는 한 줄로 닫겠습니다.
 
-> *"What we're doing is training a collaborator, one feedback at a time."* — Eugene Yan
+> *"You can't delegate what you can't verify."* — Eugene Yan
 
-> **"AI와 일하는 것은 도구를 배우는 게 아니라, 동료 한 명을 한 번에 한 피드백씩 키우는 일입니다."**
+> **"30일 후, 당신은 *루틴 한 개를 가진 사람*입니다. 이제 그 루틴이 *살아 있게* 만드는 일이 남았습니다."**
 
 캡스톤이 끝났다면, 다음 글은 **챕터 13 — 한 달 후, 내 루틴 파일을 리팩토링하는 법**입니다. 한 달간 살이 붙은 `CLAUDE.md`와 `feature_list.json`을 *책상이 아니라 규칙 자체*에서 정돈하는 의식을, 운영자의 매월 1일 루틴 그대로 옮겨드립니다.
 
