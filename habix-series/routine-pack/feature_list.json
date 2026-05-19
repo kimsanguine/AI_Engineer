@@ -7,6 +7,7 @@
 state 값은 5가지 중 하나여야 합니다: todo, active, passing, failing, blocked.
 owner는 사람 이름 또는 "agent"로 적고, 사람 승인이 필요한 항목은 owner를 사람 이름으로 둡니다.
 샘플은 1인 빌더 SaaS 도메인입니다. 본인 프로젝트에 맞게 id와 behavior만 바꿔 사용하세요.
+`updated_at` 칸은 이 파일을 수정할 때마다 실제 날짜(예: "2026-05-19")로 갱신하세요.
 
 ```json
 {
