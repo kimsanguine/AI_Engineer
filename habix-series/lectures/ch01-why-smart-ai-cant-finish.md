@@ -118,6 +118,6 @@ AI 업계에서 하네스는 이렇게 정의됩니다. **모델 가중치(weigh
 ---
 
 **참고**
-- Anthropic, "Claude Opus 4.5 controlled harness experiment" (2025년 공개 자료)
+- *(출처: Anthropic 공개 실험 — Claude Opus 4.5 시스템 카드 및 모델 카드 참조)*
 - SWE-bench Verified leaderboard, princeton-nlp/SWE-bench
 - 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 01
