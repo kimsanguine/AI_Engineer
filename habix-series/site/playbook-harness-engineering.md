@@ -1,5 +1,5 @@
 ---
-title: Harness Engineering Cheatsheet
+title: Harness Engineering Playbook
 subtitle: Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다
 slug: harness-engineering
 canonical_url: https://habix.ai/playbook/harness-engineering
@@ -9,7 +9,7 @@ total_reading_time_min: 259
 og_image: /assets/harness-engineering/og/series-cover.png
 ---
 
-# Harness Engineering Cheatsheet
+# Harness Engineering Playbook
 
 > Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다.
 

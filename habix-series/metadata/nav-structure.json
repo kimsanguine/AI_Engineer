@@ -1,10 +1,10 @@
 {
   "series": {
     "slug": "harness-engineering",
-    "title": "Harness Engineering Cheatsheet",
+    "title": "Harness Engineering Playbook",
     "subtitle": "Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다",
     "url": "/playbook/harness-engineering",
-    "menu_label": "Harness Engineering Cheatsheet",
+    "menu_label": "Harness Engineering Playbook",
     "total_chapters": 17,
     "total_reading_time_min": 259,
     "last_updated": "2026-05-25"
