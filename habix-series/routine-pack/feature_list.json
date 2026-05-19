@@ -12,6 +12,7 @@ owner는 사람 이름 또는 "agent"로 적고, 사람 승인이 필요한 항�
 ```json
 {
   "project": "1인 빌더 SaaS MVP",
+  "_readme": "updated_at 칸은 매번 실제 날짜(YYYY-MM-DD)로 갱신하세요.",
   "updated_at": "YYYY-MM-DD",
   "features": [
     {
