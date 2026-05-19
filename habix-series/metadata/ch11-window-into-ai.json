@@ -1,0 +1,20 @@
+{
+  "slug": "ch11-window-into-ai",
+  "chapter_number": "11",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 16,
+  "og_title": "AI가 뭘 했는지 들여다보는 창문 — 하네스 엔지니어링 Ch.11 | habix",
+  "og_description": "청구서 $47, 그제서야 한 주를 알게 된 밤. AI 관측 가능성의 4개 창문 — 토큰·도구 호출·파일 변경·트랜스크립트.",
+  "og_image_alt": "하네스 엔지니어링 Ch.11 — AI 관측 가능성 4개 창문",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "AI가 한 주 동안 뭘 했는지 청구서로 알게 됩니다",
+  "twitter_description": "보이지 않으면 고칠 수 없습니다. 비개발자가 알아야 할 AI 관측의 4개 창문.",
+  "canonical_url": "/lectures/ch11-window-into-ai",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "관측 가능성(Observability)",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch12-clean-exit"
+}

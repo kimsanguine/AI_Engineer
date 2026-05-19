@@ -1,0 +1,20 @@
+{
+  "slug": "ch05-leave-notes-for-tomorrow",
+  "chapter_number": "05",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 15,
+  "og_title": "AI는 어제 한 일을 잊는다 — 메모를 남겨라 | habix",
+  "og_description": "금요일 3시간 디버깅, 월요일엔 처음부터 설명. progress.md가 내일의 AI에게 어제를 전합니다.",
+  "og_image_alt": "하네스 엔지니어링 Ch.05 — progress.md 작성 가이드",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "월요일마다 AI에게 처음부터 설명하는 분께",
+  "twitter_description": "5분 메모가 다음 세션 첫 명령을 한 줄로 줄입니다. progress.md 사용법 완전 공개.",
+  "canonical_url": "/lectures/ch05-leave-notes-for-tomorrow",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "progress.md 세션 메모",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch06-five-minute-briefing"
+}

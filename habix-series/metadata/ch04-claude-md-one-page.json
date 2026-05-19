@@ -1,0 +1,20 @@
+{
+  "slug": "ch04-claude-md-one-page",
+  "chapter_number": "04",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 18,
+  "og_title": "CLAUDE.md 한 장으로 AI에게 프로젝트 가르치기 — 하네스 엔지니어링 Ch.04 | habix",
+  "og_description": "같은 지시를 13번째 적던 날. CLAUDE.md는 모든 세션의 첫 페이지입니다. 8개 칸 템플릿 전문 공개.",
+  "og_image_alt": "하네스 엔지니어링 Ch.04 — CLAUDE.md 8개 칸 구성",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "매번 같은 지시를 반복하고 있다면 이 파일을 만드세요",
+  "twitter_description": "채팅창 = 휘발성, CLAUDE.md = 자산. AI가 출근하면 가장 먼저 펴보는 노트를 만드는 법.",
+  "canonical_url": "/lectures/ch04-claude-md-one-page",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "CLAUDE.md 작성법",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch05-leave-notes-for-tomorrow"
+}

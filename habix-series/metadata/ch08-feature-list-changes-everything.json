@@ -1,0 +1,20 @@
+{
+  "slug": "ch08-feature-list-changes-everything",
+  "chapter_number": "08",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 15,
+  "og_title": "할 일 한 장이 모든 것을 바꾼다 — 하네스 엔지니어링 Ch.08 | habix",
+  "og_description": "노션도, Linear도 AI는 스스로 갱신 못 합니다. feature_list.json이 AI가 매일 출퇴근하는 작업 일지인 이유.",
+  "og_image_alt": "하네스 엔지니어링 Ch.08 — feature_list.json 구조 설명",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "30개 항목이 전부 In Progress였던 그 화요일",
+  "twitter_description": "AI가 자기 작업 상태를 스스로 갱신할 수 있는 한 장이 필요합니다. feature_list.json 전체 구조 공개.",
+  "canonical_url": "/lectures/ch08-feature-list-changes-everything",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "feature_list.json 작업 관리",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch09-no-victory-without-evidence"
+}

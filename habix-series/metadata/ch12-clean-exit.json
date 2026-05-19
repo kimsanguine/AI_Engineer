@@ -1,0 +1,20 @@
+{
+  "slug": "ch12-clean-exit",
+  "chapter_number": "12",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 15,
+  "og_title": "내일의 나를 위해 책상 정리하고 나가기 — 하네스 엔지니어링 Ch.12 | habix",
+  "og_description": "세션은 종료되는 게 아니라 방치됩니다. 마지막 5분의 정리가 빠지면 다음 세션의 첫 30분이 망가집니다.",
+  "og_image_alt": "하네스 엔지니어링 Ch.12 — 세션 클린 종료 10단계 체크리스트",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "금요일 저녁 노트북 그냥 닫으면 월요일 오전이 망가집니다",
+  "twitter_description": "세션을 닫는 것은 작업입니다. session-end-checklist.md 10가지를 공개합니다.",
+  "canonical_url": "/lectures/ch12-clean-exit",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "클린 세션 종료",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "capstone-30-day-routine-challenge"
+}

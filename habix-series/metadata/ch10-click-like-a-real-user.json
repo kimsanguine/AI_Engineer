@@ -1,0 +1,20 @@
+{
+  "slug": "ch10-click-like-a-real-user",
+  "chapter_number": "10",
+  "series": "habix-harness-engineering",
+  "series_title": "하네스 엔지니어링",
+  "category": "core",
+  "published_at": null,
+  "estimated_reading_time_min": 15,
+  "og_title": "실제 사용자처럼 클릭하는 자동 테스트 — 하네스 엔지니어링 Ch.10 | habix",
+  "og_description": "단위 테스트 47개 모두 초록불. 그런데 Tab 키 하나에 폼이 리셋됐습니다. E2E가 검증 사다리의 진짜 한 칸 위인 이유.",
+  "og_image_alt": "하네스 엔지니어링 Ch.10 — E2E 테스트 vs 단위 테스트 비교",
+  "twitter_card": "summary_large_image",
+  "twitter_title": "테스트 다 통과했는데 왜 사용자 앞에서 깨질까요",
+  "twitter_description": "단위 테스트는 부품을, E2E는 흐름을 봅니다. 사용자는 부품을 사지 않습니다. Playwright MCP 활용법.",
+  "canonical_url": "/lectures/ch10-click-like-a-real-user",
+  "series_tags": ["harness-engineering", "claude-code", "vibe-coding", "pm", "solo-builder", "1인빌더", "비개발자"],
+  "key_concept": "E2E 자동 테스트 / Playwright MCP",
+  "series_cta": "루틴팩 v1 다운로드",
+  "next_chapter": "ch11-window-into-ai"
+}
