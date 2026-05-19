@@ -330,7 +330,7 @@ ROI 순. 각 항목 *정확한 before → after* 제시.
 
 - [ ] Top 7 즉시 수정 모두 반영됐는가?
 - [ ] 루틴팩 v1 다운로드 링크가 실제로 작동하는가?
-- [ ] Hero CTA의 `/lectures/ch01/` URL이 라이브인가?
+- [ ] Hero CTA의 `/playbook/harness-engineering/ch01-why-smart-ai-cant-finish` URL이 라이브인가?
 - [ ] FAQ Q3의 *"챕터당 20분"*과 Hero의 *"15분"* 표현이 통일됐는가?
 - [ ] 자산 `feature_list.json`의 `updated_at: "YYYY-MM-DD"` 안내 한 줄이 들어갔는가?
 

@@ -135,4 +135,4 @@ habix.ai는 *루틴*을 가르칩니다. 도구 사용법이 아니라, 비개�
 
 오늘 15분, 챕터 1만 읽으셔도 작업장이 왜 비어 있었는지 보입니다.
 
-[ 챕터 1 읽기 → /lectures/ch01/ ]
+[ 챕터 1 읽기 → /playbook/harness-engineering/ch01-why-smart-ai-cant-finish ]
