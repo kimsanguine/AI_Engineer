@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="title desc">
+  <title id="title">하네스 5개 방 — 평면도</title>
+  <desc id="desc">하네스를 5개 방이 있는 작업장으로 본 평면도. 입구에서 들어가면 의도 방이 있고, 그 옆에 메모리 방, 가운데에 실행 방, 출구 쪽에 검증 방과 세션 종료 방이 있습니다. 작업 흐름은 의도에서 시작해 메모리·실행·검증을 거쳐 세션 종료에서 마무리됩니다.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .room-title { font-size: 17px; font-weight: 700; fill: #1a1a1a; }
+    .room-en { font-size: 11px; font-weight: 600; fill: #8a8a8a; letter-spacing: 1px; }
+    .room-body { font-size: 12px; fill: #595959; }
+    .room-asset { font-size: 12px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; fill: #1e3a8a; }
+    .wall { stroke: #1a1a1a; stroke-width: 3; fill: none; }
+    .wall-inner { stroke: #8a8a8a; stroke-width: 2; fill: none; }
+    .door { stroke: #faf8f3; stroke-width: 4; }
+    .door-arc { stroke: #d4ccc0; stroke-width: 1; fill: none; stroke-dasharray: 2 2; }
+    .flow { stroke: #c1121f; stroke-width: 2; fill: none; }
+    .flow-num { font-size: 12px; font-weight: 700; fill: #ffffff; }
+  </style>
+  <defs>
+    <marker id="flowArr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c1121f"/>
+    </marker>
+  </defs>
+  <rect width="880" height="560" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">하네스 5개 방 — 평면도</text>
+  <text x="40" y="68" class="font-base muted">하네스는 추상이 아닌 *작업장*입니다. 방마다 하나의 자산이 자리합니다.</text>
+
+  <!-- Outer wall -->
+  <rect x="80" y="100" width="760" height="380" class="wall" rx="4"/>
+
+  <!-- Internal walls -->
+  <!-- Vertical wall: separates intent+memory column from execution+verification+exit -->
+  <line x1="320" y1="100" x2="320" y2="480" class="wall-inner"/>
+  <!-- Horizontal wall: divides left column into intent (top) and memory (bottom) -->
+  <line x1="80" y1="290" x2="320" y2="290" class="wall-inner"/>
+  <!-- Vertical wall: separates execution from verification+exit -->
+  <line x1="560" y1="100" x2="560" y2="480" class="wall-inner"/>
+  <!-- Horizontal wall: divides right column into verification (top) and exit (bottom) -->
+  <line x1="560" y1="290" x2="840" y2="290" class="wall-inner"/>
+
+  <!-- Doors (gaps in walls) -->
+  <!-- Door from 의도 to 실행 (right side of 의도 room) -->
+  <line x1="320" y1="180" x2="320" y2="220" class="door"/>
+  <path d="M320,180 A40,40 0 0,1 360,220" class="door-arc"/>
+  <!-- Door from 메모리 to 실행 -->
+  <line x1="320" y1="360" x2="320" y2="400" class="door"/>
+  <path d="M320,360 A40,40 0 0,0 360,400" class="door-arc"/>
+  <!-- Door from 실행 to 검증 -->
+  <line x1="560" y1="180" x2="560" y2="220" class="door"/>
+  <path d="M560,180 A40,40 0 0,1 600,220" class="door-arc"/>
+  <!-- Door from 검증 to 세션종료 -->
+  <line x1="700" y1="290" x2="740" y2="290" class="door"/>
+
+  <!-- Entrance arrow (left) -->
+  <text x="40" y="200" class="font-base muted" text-anchor="start">새 세션</text>
+  <path d="M40,210 L80,210" stroke="#595959" stroke-width="2" fill="none" marker-end="url(#flowArr)"/>
+
+  <!-- Room 1: 의도 (top-left) -->
+  <rect x="80" y="100" width="240" height="190" fill="#1e3a8a" opacity="0.08"/>
+  <text x="100" y="130" class="font-base room-en">INTENT</text>
+  <text x="100" y="155" class="font-base room-title">의도</text>
+  <text x="100" y="180" class="font-base room-body">무엇을 만들지를 *문서*로.</text>
+  <text x="100" y="200" class="font-base room-body">결과 정의 + 정지 규칙.</text>
+  <text x="100" y="230" class="font-base room-asset">CLAUDE.md</text>
+  <text x="100" y="248" class="font-base room-asset">intent_sheet.md</text>
+  <!-- Flow number 1 -->
+  <circle cx="288" cy="118" r="14" fill="#c1121f"/>
+  <text x="288" y="123" text-anchor="middle" class="font-base flow-num">1</text>
+
+  <!-- Room 2: 메모리 (bottom-left) -->
+  <rect x="80" y="290" width="240" height="190" fill="#2d6a4f" opacity="0.08"/>
+  <text x="100" y="320" class="font-base room-en">MEMORY</text>
+  <text x="100" y="345" class="font-base room-title">메모리</text>
+  <text x="100" y="370" class="font-base room-body">어제 무엇을 했고,</text>
+  <text x="100" y="390" class="font-base room-body">오늘 어디서 멈췄는지.</text>
+  <text x="100" y="420" class="font-base room-asset">progress.md</text>
+  <text x="100" y="438" class="font-base room-asset">feature_list.json</text>
+  <circle cx="288" cy="308" r="14" fill="#c1121f"/>
+  <text x="288" y="313" text-anchor="middle" class="font-base flow-num">2</text>
+
+  <!-- Room 3: 실행 (center) -->
+  <rect x="320" y="100" width="240" height="380" fill="#8b4513" opacity="0.08"/>
+  <text x="340" y="130" class="font-base room-en">EXECUTION</text>
+  <text x="340" y="155" class="font-base room-title">실행</text>
+  <text x="340" y="180" class="font-base room-body">실제 명령이 굴러가는 방.</text>
+  <text x="340" y="200" class="font-base room-body">한 명령 = 한 작업 단위.</text>
+  <text x="340" y="230" class="font-base room-asset">prompt + 도구 호출</text>
+  <text x="340" y="248" class="font-base room-asset">작업 단위 분해</text>
+  <circle cx="528" cy="118" r="14" fill="#c1121f"/>
+  <text x="528" y="123" text-anchor="middle" class="font-base flow-num">3</text>
+
+  <!-- Room 4: 검증 (top-right) -->
+  <rect x="560" y="100" width="280" height="190" fill="#f59e0b" opacity="0.10"/>
+  <text x="580" y="130" class="font-base room-en">VERIFICATION</text>
+  <text x="580" y="155" class="font-base room-title">검증</text>
+  <text x="580" y="180" class="font-base room-body">"됐어요"가 진짜 됐는지.</text>
+  <text x="580" y="200" class="font-base room-body">사다리 0→1→2→3.</text>
+  <text x="580" y="230" class="font-base room-asset">테스트 / E2E</text>
+  <text x="580" y="248" class="font-base room-asset">사람 클릭</text>
+  <circle cx="808" cy="118" r="14" fill="#c1121f"/>
+  <text x="808" y="123" text-anchor="middle" class="font-base flow-num">4</text>
+
+  <!-- Room 5: 세션 종료 (bottom-right) -->
+  <rect x="560" y="290" width="280" height="190" fill="#c1121f" opacity="0.08"/>
+  <text x="580" y="320" class="font-base room-en">SESSION END</text>
+  <text x="580" y="345" class="font-base room-title">세션 종료</text>
+  <text x="580" y="370" class="font-base room-body">내일의 나를 위한 정리.</text>
+  <text x="580" y="390" class="font-base room-body">5분 정리 = 30분 헤맴 방지.</text>
+  <text x="580" y="420" class="font-base room-asset">session-end-checklist.md</text>
+  <text x="580" y="438" class="font-base room-asset">progress.md 갱신</text>
+  <circle cx="808" cy="308" r="14" fill="#c1121f"/>
+  <text x="808" y="313" text-anchor="middle" class="font-base flow-num">5</text>
+
+  <!-- Bottom legend -->
+  <rect x="40" y="500" width="800" height="44" rx="6" fill="#fef3c7"/>
+  <text x="56" y="522" class="font-base room-title">방 순서는 1→2→3→4→5. 어느 방이 비어 있으면 그 자리에서 일이 *멈춥니다*.</text>
+  <text x="56" y="540" class="font-base room-body">빨간 번호는 작업 흐름. 빈 방 한 개 = 시리즈 모든 다음 챕터가 진통.</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">CLAUDE.md 3-Layer 구조 — 수직 단면도</title>
+  <desc id="desc">CLAUDE.md는 세 층으로 쌓입니다. 가장 넓은 전역(~/.claude/) 위에 저장소(root)가, 그 위에 하위 폴더가 얹힙니다. 아래 층일수록 적용 범위가 넓고, 위로 갈수록 범위가 좁아지며 구체적입니다.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .layer-title { font-size: 18px; font-weight: 700; fill: #1a1a1a; }
+    .layer-sub { font-size: 13px; fill: #595959; }
+    .path { font-size: 13px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; fill: #1e3a8a; }
+    .arrow { stroke: #595959; stroke-width: 1.5; fill: none; marker-end: url(#arr); }
+    .axis-label { font-size: 12px; font-weight: 600; fill: #8a8a8a; letter-spacing: 0.5px; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#595959"/>
+    </marker>
+  </defs>
+  <rect width="800" height="520" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">CLAUDE.md 3-Layer 구조</text>
+  <text x="40" y="68" class="font-base muted">아래로 갈수록 적용 범위가 넓고, 위로 갈수록 구체적입니다.</text>
+
+  <!-- Top layer: 하위 폴더 (narrowest) -->
+  <rect x="200" y="110" width="320" height="80" rx="6" fill="#1e3a8a" opacity="0.9"/>
+  <text x="220" y="140" class="font-base layer-title" fill="#ffffff">하위 폴더 CLAUDE.md</text>
+  <text x="220" y="162" class="font-base path" fill="#fef3c7">my-app/api/CLAUDE.md</text>
+  <text x="220" y="180" class="font-base layer-sub" fill="#ffffff" opacity="0.85">이 폴더 안에서만. 가장 구체적.</text>
+
+  <!-- Middle layer: 저장소 -->
+  <rect x="140" y="220" width="440" height="80" rx="6" fill="#2d6a4f" opacity="0.9"/>
+  <text x="160" y="250" class="font-base layer-title" fill="#ffffff">저장소 CLAUDE.md (root)</text>
+  <text x="160" y="272" class="font-base path" fill="#fef3c7">my-app/CLAUDE.md</text>
+  <text x="160" y="290" class="font-base layer-sub" fill="#ffffff" opacity="0.85">이 프로젝트의 모든 폴더에서 자동 적용.</text>
+
+  <!-- Bottom layer: 전역 -->
+  <rect x="80" y="330" width="560" height="80" rx="6" fill="#8b4513" opacity="0.85"/>
+  <text x="100" y="360" class="font-base layer-title" fill="#ffffff">전역 CLAUDE.md</text>
+  <text x="100" y="382" class="font-base path" fill="#fef3c7">~/.claude/CLAUDE.md</text>
+  <text x="100" y="400" class="font-base layer-sub" fill="#ffffff" opacity="0.85">내 컴퓨터의 모든 프로젝트에서 적용. 가장 넓음.</text>
+
+  <!-- Vertical axis labels (right side) -->
+  <text x="660" y="148" class="font-base axis-label">좁고 구체</text>
+  <text x="660" y="384" class="font-base axis-label">넓고 일반</text>
+  <line x1="700" y1="160" x2="700" y2="370" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M696,165 L700,158 L704,165" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <path d="M696,365 L700,372 L704,365" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- Inheritance flow arrow -->
+  <path d="M40,390 C 20,300 20,200 40,150" class="arrow"/>
+  <text x="10" y="270" class="font-base axis-label" transform="rotate(-90, 10, 270)">상속 흐름</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="440" width="720" height="56" rx="6" fill="#fef3c7"/>
+  <text x="56" y="463" class="font-base layer-sub" fill="#1a1a1a">위 층이 *덮어쓰지* 않습니다 — *덧붙입니다*. 충돌하면 더 좁은(위) 층이 이깁니다.</text>
+  <text x="56" y="483" class="font-base layer-sub">매번 켜는 규칙 → 전역. 이 프로젝트 규칙 → 저장소. 이 폴더 규칙 → 하위.</text>
+</svg>

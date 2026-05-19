@@ -61,7 +61,7 @@ AI는 *우리 프로젝트의 어제*를 기억하지 못합니다. 새 세션�
   형식: 타임라인(timeline)
   대체텍스트: 0초 세션 시작부터 0:30 CLAUDE.md 읽기, 1:30 progress.md 읽기, 2:30 feature_list.json 읽기, 3:30 본 작업 시작까지 이어지는 타임라인
 -->
-> **[그림]** *0:30 CLAUDE.md → 1:30 progress.md → 2:30 feature_list.json → 3:30 본 작업 순서로 이어지는 5분 초기화 의식 타임라인* *(v1.1에서 추가 예정)*
+![0초 세션 열기 → 30초 CLAUDE.md → 1분30초 progress.md → 2분30초 feature_list.json → 3분30초 본 작업 시작 순서로 이어지는 5분 초기화 의식 타임라인.](../diagrams/ch06-initialization-timeline.svg)
 
 핵심은 1~3단계를 *한 명령*에 묶지 않는 것입니다. 단계별로 끊어서 AI가 *한 번에 한 문서씩* 읽고 요약하게 해야, 진짜로 컨텍스트가 들어옵니다.
 

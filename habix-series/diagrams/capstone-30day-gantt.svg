@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">30일 루틴 챌린지 — 4주 로드맵 간트</title>
+  <desc id="desc">4주에 걸쳐 5개 하네스 자산을 차례로 구축하는 30일 챌린지. 1주차 의도(CLAUDE.md), 2주차 메모리(progress.md, feature_list.json), 3주차 실행·검증(정지 규칙, 검증 사다리), 4주차 세션 종료·리뷰의 순서.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .col-header { font-size: 14px; font-weight: 700; fill: #1a1a1a; }
+    .row-label { font-size: 14px; font-weight: 600; fill: #1a1a1a; }
+    .row-sub { font-size: 11px; fill: #8a8a8a; }
+    .bar-label { font-size: 13px; font-weight: 600; fill: #ffffff; }
+    .grid-line { stroke: #e5dccc; stroke-width: 1; }
+    .axis { stroke: #d4ccc0; stroke-width: 1.5; }
+  </style>
+  <rect width="900" height="540" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">30일 루틴 챌린지 — 4주 로드맵</text>
+  <text x="40" y="68" class="font-base muted">한 주에 한 시스템. 다음 주는 *덧붙여서* 같이 굴립니다.</text>
+
+  <!-- Header row -->
+  <text x="220" y="115" text-anchor="middle" class="font-base col-header">Week 1</text>
+  <text x="220" y="132" text-anchor="middle" class="font-base row-sub">D1~D7</text>
+  <text x="380" y="115" text-anchor="middle" class="font-base col-header">Week 2</text>
+  <text x="380" y="132" text-anchor="middle" class="font-base row-sub">D8~D14</text>
+  <text x="540" y="115" text-anchor="middle" class="font-base col-header">Week 3</text>
+  <text x="540" y="132" text-anchor="middle" class="font-base row-sub">D15~D21</text>
+  <text x="700" y="115" text-anchor="middle" class="font-base col-header">Week 4</text>
+  <text x="700" y="132" text-anchor="middle" class="font-base row-sub">D22~D30</text>
+
+  <!-- Vertical grid lines -->
+  <line x1="140" y1="145" x2="140" y2="475" class="axis"/>
+  <line x1="300" y1="145" x2="300" y2="475" class="grid-line"/>
+  <line x1="460" y1="145" x2="460" y2="475" class="grid-line"/>
+  <line x1="620" y1="145" x2="620" y2="475" class="grid-line"/>
+  <line x1="780" y1="145" x2="780" y2="475" class="axis"/>
+  <line x1="140" y1="475" x2="780" y2="475" class="axis"/>
+
+  <!-- Row 1: 의도 -->
+  <text x="125" y="175" text-anchor="end" class="font-base row-label">의도</text>
+  <text x="125" y="190" text-anchor="end" class="font-base row-sub">CLAUDE.md</text>
+  <rect x="142" y="160" width="156" height="32" rx="4" fill="#1e3a8a"/>
+  <text x="220" y="181" text-anchor="middle" class="font-base bar-label">한 장 작성</text>
+  <rect x="302" y="160" width="476" height="32" rx="4" fill="#1e3a8a" opacity="0.3"/>
+  <text x="540" y="181" text-anchor="middle" class="font-base bar-label" fill="#1e3a8a">매주 갱신</text>
+
+  <!-- Row 2: 메모리 -->
+  <text x="125" y="235" text-anchor="end" class="font-base row-label">메모리</text>
+  <text x="125" y="250" text-anchor="end" class="font-base row-sub">progress.md + feature_list</text>
+  <rect x="302" y="220" width="156" height="32" rx="4" fill="#2d6a4f"/>
+  <text x="380" y="241" text-anchor="middle" class="font-base bar-label">2개 자산 도입</text>
+  <rect x="462" y="220" width="316" height="32" rx="4" fill="#2d6a4f" opacity="0.3"/>
+  <text x="620" y="241" text-anchor="middle" class="font-base bar-label" fill="#2d6a4f">매일 갱신</text>
+
+  <!-- Row 3: 실행 -->
+  <text x="125" y="295" text-anchor="end" class="font-base row-label">실행</text>
+  <text x="125" y="310" text-anchor="end" class="font-base row-sub">정지 규칙 + 분해</text>
+  <rect x="462" y="280" width="156" height="32" rx="4" fill="#8b4513"/>
+  <text x="540" y="301" text-anchor="middle" class="font-base bar-label">정지 규칙 박기</text>
+  <rect x="622" y="280" width="156" height="32" rx="4" fill="#8b4513" opacity="0.3"/>
+  <text x="700" y="301" text-anchor="middle" class="font-base bar-label" fill="#8b4513">루프</text>
+
+  <!-- Row 4: 검증 -->
+  <text x="125" y="355" text-anchor="end" class="font-base row-label">검증</text>
+  <text x="125" y="370" text-anchor="end" class="font-base row-sub">사다리 4단계</text>
+  <rect x="462" y="340" width="156" height="32" rx="4" fill="#f59e0b"/>
+  <text x="540" y="361" text-anchor="middle" class="font-base bar-label">사다리 박기</text>
+  <rect x="622" y="340" width="156" height="32" rx="4" fill="#f59e0b" opacity="0.3"/>
+  <text x="700" y="361" text-anchor="middle" class="font-base bar-label" fill="#8b4513">습관화</text>
+
+  <!-- Row 5: 세션 종료 -->
+  <text x="125" y="415" text-anchor="end" class="font-base row-label">세션 종료</text>
+  <text x="125" y="430" text-anchor="end" class="font-base row-sub">체크리스트 10개</text>
+  <rect x="622" y="400" width="156" height="32" rx="4" fill="#c1121f"/>
+  <text x="700" y="421" text-anchor="middle" class="font-base bar-label">10가지 박기</text>
+
+  <!-- Final review milestone -->
+  <line x1="780" y1="155" x2="780" y2="465" stroke="#c1121f" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="788" y="470" class="font-base row-sub" fill="#c1121f">D30 졸업 시험</text>
+
+  <!-- Bottom legend -->
+  <rect x="40" y="495" width="820" height="32" rx="6" fill="#fef3c7"/>
+  <text x="56" y="516" class="font-base row-label">진한 색 = 도입 주차. 옅은 색 = 유지·갱신 주차. 다음 주는 *덧붙여서* 같이 굴립니다.</text>
+</svg>

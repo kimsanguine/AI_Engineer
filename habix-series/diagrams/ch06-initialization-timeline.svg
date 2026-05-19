@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-labelledby="title desc">
+  <title id="title">5분 초기화 의식 — 타임라인</title>
+  <desc id="desc">새 세션을 열고 본 작업에 들어가기 전 4단계 의식. 0초 세션 열기에서 시작해 30초 CLAUDE.md, 1분30초 progress.md, 2분30초 feature_list.json을 차례로 읽힌 뒤, 3분30초부터 본 작업을 시작합니다.</desc>
+  <style>
+    .font-base { font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .h1 { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+    .muted { font-size: 13px; fill: #595959; }
+    .step-num { font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .step-title { font-size: 15px; font-weight: 700; fill: #1a1a1a; }
+    .step-time { font-size: 12px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; fill: #595959; }
+    .step-body { font-size: 12px; fill: #595959; }
+    .axis { stroke: #d4ccc0; stroke-width: 2; }
+    .tick { stroke: #8a8a8a; stroke-width: 1; }
+    .tick-label { font-size: 11px; fill: #8a8a8a; }
+  </style>
+  <rect width="900" height="380" fill="#faf8f3"/>
+  <text x="40" y="44" class="font-base h1">5분 초기화 의식 — 타임라인</text>
+  <text x="40" y="68" class="font-base muted">한 명령에 다 묶지 마세요. 단계마다 끊어서 *한 문서씩* 읽힙니다.</text>
+
+  <!-- Main timeline -->
+  <line x1="60" y1="200" x2="840" y2="200" class="axis"/>
+
+  <!-- Tick marks -->
+  <g class="font-base">
+    <line x1="80" y1="195" x2="80" y2="210" class="tick"/>
+    <text x="80" y="232" text-anchor="middle" class="tick-label">0초</text>
+    <line x1="220" y1="195" x2="220" y2="210" class="tick"/>
+    <text x="220" y="232" text-anchor="middle" class="tick-label">0:30</text>
+    <line x1="380" y1="195" x2="380" y2="210" class="tick"/>
+    <text x="380" y="232" text-anchor="middle" class="tick-label">1:30</text>
+    <line x1="540" y1="195" x2="540" y2="210" class="tick"/>
+    <text x="540" y="232" text-anchor="middle" class="tick-label">2:30</text>
+    <line x1="700" y1="195" x2="700" y2="210" class="tick"/>
+    <text x="700" y="232" text-anchor="middle" class="tick-label">3:30</text>
+  </g>
+
+  <!-- Step 0: 세션 열기 -->
+  <circle cx="80" cy="200" r="14" fill="#8b4513"/>
+  <text x="80" y="205" text-anchor="middle" class="font-base step-num">0</text>
+  <text x="80" y="125" text-anchor="middle" class="font-base step-title">세션 열기</text>
+  <text x="80" y="145" text-anchor="middle" class="font-base step-time">30초</text>
+  <text x="80" y="165" text-anchor="middle" class="font-base step-body">cd + 새 창</text>
+
+  <!-- Step 1: CLAUDE.md -->
+  <circle cx="220" cy="200" r="14" fill="#1e3a8a"/>
+  <text x="220" y="205" text-anchor="middle" class="font-base step-num">1</text>
+  <text x="220" y="125" text-anchor="middle" class="font-base step-title">CLAUDE.md</text>
+  <text x="220" y="145" text-anchor="middle" class="font-base step-time">1분</text>
+  <text x="220" y="165" text-anchor="middle" class="font-base step-body">"한 줄로 요약해줘"</text>
+
+  <!-- Step 2: progress.md -->
+  <circle cx="380" cy="200" r="14" fill="#1e3a8a"/>
+  <text x="380" y="205" text-anchor="middle" class="font-base step-num">2</text>
+  <text x="380" y="125" text-anchor="middle" class="font-base step-title">progress.md</text>
+  <text x="380" y="145" text-anchor="middle" class="font-base step-time">1분</text>
+  <text x="380" y="165" text-anchor="middle" class="font-base step-body">"어제 미해결 보여줘"</text>
+
+  <!-- Step 3: feature_list.json -->
+  <circle cx="540" cy="200" r="14" fill="#1e3a8a"/>
+  <text x="540" y="205" text-anchor="middle" class="font-base step-num">3</text>
+  <text x="540" y="125" text-anchor="middle" class="font-base step-title">feature_list.json</text>
+  <text x="540" y="145" text-anchor="middle" class="font-base step-time">1분</text>
+  <text x="540" y="165" text-anchor="middle" class="font-base step-body">"active 항목 알려줘"</text>
+
+  <!-- Step 4: 본 작업 -->
+  <circle cx="700" cy="200" r="18" fill="#2d6a4f"/>
+  <text x="700" y="206" text-anchor="middle" class="font-base step-num">▶</text>
+  <text x="700" y="125" text-anchor="middle" class="font-base step-title">본 작업 시작</text>
+  <text x="700" y="145" text-anchor="middle" class="font-base step-time" fill="#2d6a4f">3:30~</text>
+  <text x="700" y="165" text-anchor="middle" class="font-base step-body">맥락 위에서 출발</text>
+
+  <!-- Arrow forward -->
+  <path d="M730,200 L830,200" stroke="#2d6a4f" stroke-width="2" fill="none" marker-end="url(#arr2)"/>
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2d6a4f"/>
+    </marker>
+  </defs>
+
+  <!-- Bottom insight -->
+  <rect x="40" y="290" width="820" height="56" rx="6" fill="#fef3c7"/>
+  <text x="56" y="313" class="font-base step-title">5분을 건너뛰면, 본 작업에서 30분이 날아갑니다.</text>
+  <text x="56" y="333" class="font-base step-body">환산이 안 맞는 거래입니다. 매 세션 첫 5분 = 그날 가장 비싼 ROI.</text>
+</svg>
