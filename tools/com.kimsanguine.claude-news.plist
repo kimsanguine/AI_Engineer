@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.kimsanguine.claude-news</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/sanguinekim/.claude/scripts/collect_claude_news.py</string>
+    </array>
+
+    <!-- 매일 오전 6시 실행 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/sanguinekim/.claude/scripts/claude_news.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sanguinekim/.claude/scripts/claude_news_error.log</string>
+
+    <!-- 등록 즉시 실행 방지 -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
