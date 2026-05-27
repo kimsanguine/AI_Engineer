@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 llm-wiki/scripts/collect_cases.py"
+          }
+        ]
+      }
+    ]
+  }
+}
