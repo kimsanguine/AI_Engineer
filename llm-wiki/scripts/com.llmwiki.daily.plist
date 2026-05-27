@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  com.llmwiki.daily.plist — macOS LaunchAgent (템플릿)
+  install_agent.sh 가 __SCRIPT_PATH__ 를 실제 경로로 치환합니다.
+  설치 위치: ~/Library/LaunchAgents/com.llmwiki.daily.plist
+-->
+<plist version="1.0">
+<dict>
+    <!-- 에이전트 식별자 -->
+    <key>Label</key>
+    <string>com.llmwiki.daily</string>
+
+    <!-- 실행 명령 -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>__SCRIPT_PATH__</string>
+    </array>
+
+    <!-- 매일 06:30 실행 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <!-- 로그 경로 -->
+    <key>StandardOutPath</key>
+    <string>__LOG_DIR__/llmwiki-collect.log</string>
+    <key>StandardErrorPath</key>
+    <string>__LOG_DIR__/llmwiki-collect-error.log</string>
+
+    <!-- 부팅 시 즉시 실행 안 함 (오직 스케줄만) -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
