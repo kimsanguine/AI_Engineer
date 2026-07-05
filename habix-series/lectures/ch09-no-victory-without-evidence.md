@@ -104,6 +104,7 @@ Eugene Yan의 한 문장을 다시 봅시다.
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 09
+**운영자 맥락**
+- 이 챕터는 [feature_list.json](../routine-pack/feature_list.json)의 `verification` 칸과 [intent_sheet.md](../routine-pack/intent_sheet.md)의 휴먼 체크포인트를 연결합니다.
+- 공개 예제로 확장할 때는 [eval-rubric.md](../../validation/eval-rubric.md)와 [eval-cases.jsonl](../../templates/eval-cases.jsonl)로 검증 기준을 분리합니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

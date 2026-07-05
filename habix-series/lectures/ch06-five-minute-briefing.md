@@ -107,6 +107,7 @@ CLAUDE.md, progress.md, feature_list.json 순서로 읽고,
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 06
+**운영자 맥락**
+- 이 챕터는 [CLAUDE.md](../routine-pack/CLAUDE.md), [progress.md](../routine-pack/progress.md), [feature_list.json](../routine-pack/feature_list.json)을 세션 시작 순서로 묶는 방법입니다.
+- 핵심 산출물은 새 세션 첫 줄에 붙일 initialization snippet입니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

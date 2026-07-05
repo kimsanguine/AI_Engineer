@@ -151,5 +151,7 @@ Andrej Karpathy(전 Tesla AI 총괄, OpenAI 공동창업자)가 정리한 실제
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
+**운영자 맥락**
+- 이 챕터의 결과물은 [routine-pack/CLAUDE.md](../routine-pack/CLAUDE.md)입니다.
+- 이 레포에서는 `CLAUDE.md`를 prompt가 아니라 프로젝트 운영 계약서로 봅니다. Track 01의 Day 2 실습과 직접 연결됩니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/), [Claude Code memory / `CLAUDE.md`](https://code.claude.com/docs/en/memory).

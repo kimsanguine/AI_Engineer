@@ -189,6 +189,7 @@ PM 출신 운영자의 팁 하나. 5번 질문에 "확장"이라고 적고 싶�
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/
+**운영자 맥락**
+- 이 캡스톤은 [routine-pack/](../routine-pack/) 5종을 실제 프로젝트에서 30일간 굴려보는 챌린지입니다.
+- 결과물은 멋진 회고가 아니라 살아 있는 `CLAUDE.md`, 최신 `progress.md`, 정직한 `feature_list.json`, 그리고 검증 증거입니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

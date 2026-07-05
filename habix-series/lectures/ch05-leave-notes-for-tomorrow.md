@@ -114,6 +114,7 @@ AI의 첫 답은 이거였습니다. *"이 프로젝트에 대해 알려주세�
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 05
+**운영자 맥락**
+- 이 챕터의 결과물은 [routine-pack/progress.md](../routine-pack/progress.md)입니다.
+- 목표는 회고문을 쓰는 것이 아니라 다음 세션이 바로 이어받을 수 있는 `다음 세션 첫 명령`을 남기는 것입니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

@@ -101,6 +101,7 @@ Then: 영수증 화면이 뜨고, 메일함에 영수증 이메일이 도착한�
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 10
+**운영자 맥락**
+- 이 챕터는 `validation-log.md`와 [release-checklist.md](../../validation/release-checklist.md)에 남길 사용자 흐름 검증을 만드는 과정입니다.
+- 핵심은 "테스트 통과"가 아니라 사용자가 실제로 걷는 Given/When/Then 시나리오를 evidence로 남기는 것입니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

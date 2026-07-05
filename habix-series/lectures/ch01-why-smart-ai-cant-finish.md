@@ -117,7 +117,7 @@ AI 업계에서 하네스는 이렇게 정의됩니다. **모델 가중치(weigh
 
 ---
 
-**참고**
-- *(출처: Anthropic 공개 실험 — Claude Opus 4.5 시스템 카드 및 모델 카드 참조)*
-- SWE-bench Verified leaderboard, princeton-nlp/SWE-bench
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 01
+**운영자 맥락**
+- 이 챕터는 [Track 01 — Claude Code System](../../tracks/01-claude-code-system/)의 문제 정의입니다.
+- 실습은 [routine-pack/CLAUDE.md](../routine-pack/CLAUDE.md), [progress.md](../routine-pack/progress.md), [feature_list.json](../routine-pack/feature_list.json)을 프로젝트 루트에 두는 것에서 시작합니다.
+- 외부 참고: [Anthropic Claude Opus 4.5 system card](https://www.anthropic.com/claude-opus-4-5-system-card), SWE-bench Verified leaderboard.

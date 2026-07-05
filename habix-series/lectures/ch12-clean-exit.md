@@ -97,6 +97,7 @@
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 12
+**운영자 맥락**
+- 이 챕터의 결과물은 [routine-pack/session-end-checklist.md](../routine-pack/session-end-checklist.md)입니다.
+- 목표는 세션을 예쁘게 마무리하는 것이 아니라 다음 세션이 바로 이어받을 수 있도록 상태, 증거, 첫 명령을 남기는 것입니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

@@ -118,6 +118,7 @@
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- Anthropic, "Claude Code best practices: living context files" 공식 문서
+**운영자 맥락**
+- 이 챕터는 [CLAUDE.md](../routine-pack/CLAUDE.md), [feature_list.json](../routine-pack/feature_list.json), [progress.md](../routine-pack/progress.md)를 한 달에 한 번 줄이고 정리하는 maintenance ritual입니다.
+- Track 06의 [Skill Spec](../../templates/skill-spec.md)으로 확장하면 반복 리팩토링을 재사용 가능한 workflow로 만들 수 있습니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/), [Claude Code memory / `CLAUDE.md`](https://code.claude.com/docs/en/memory).

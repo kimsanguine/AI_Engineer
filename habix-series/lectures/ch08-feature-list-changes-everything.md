@@ -106,6 +106,7 @@ state는 *기분*이 아니라 *증거*로만 움직입니다.
 
 ---
 
-**참고**
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 08
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
+**운영자 맥락**
+- 이 챕터의 결과물은 [routine-pack/feature_list.json](../routine-pack/feature_list.json)입니다.
+- `feature_list.json`은 할 일 목록이 아니라 agent가 완료 여부를 검증할 수 있게 만드는 작업 상태 테이블입니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

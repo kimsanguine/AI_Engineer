@@ -103,6 +103,7 @@
 
 ---
 
-**참고**
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 07
-- Eugene Yan, "How to Work and Compound with AI"
+**운영자 맥락**
+- 이 챕터는 [routine-pack/intent_sheet.md](../routine-pack/intent_sheet.md)의 정지 규칙과 휴먼 체크포인트를 채우기 위한 실습입니다.
+- 더 엄격한 agent 계약이 필요하면 [Behavior Contract](../../templates/behavior-contract.md)로 확장합니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).

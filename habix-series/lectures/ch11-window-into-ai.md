@@ -97,6 +97,7 @@ AI를 관측한다는 건 거창한 모니터링 시스템을 까는 게 아닙�
 
 ---
 
-**참고**
-- Eugene Yan, "How to Work and Compound with AI", eugeneyan.com/writing/working-with-ai/
-- 원본 강의: walkinglabs.github.io/learn-harness-engineering/ko/ 강의 11
+**운영자 맥락**
+- 이 챕터는 [progress.md](../routine-pack/progress.md)에 토큰 사용량, 도구 호출 수, 변경 파일 수를 남기는 운영 습관과 연결됩니다.
+- backend agent로 확장할 때는 [Request Lifecycle](../../templates/request-lifecycle.md)의 persistence와 trace 항목으로 이어집니다.
+- 외부 참고: [Eugene Yan, "How to Work and Compound with AI"](https://eugeneyan.com/writing/working-with-ai/).
