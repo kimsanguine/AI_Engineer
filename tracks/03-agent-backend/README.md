@@ -129,6 +129,15 @@ backend-blueprint.md
 - 실패 시나리오 3개
 - release checklist에서 public demo와 production claim 분리
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Request Lifecycle](../../templates/request-lifecycle.md) | 사용자 요청 1건의 상태, 저장, 실패 흐름을 그릴 때 |
+| [Tool Spec](../../templates/tool-spec.md) | backend가 호출할 tool contract를 분리할 때 |
+| [Eval Cases JSONL](../../templates/eval-cases.jsonl) | request lifecycle의 happy path와 failure path를 검증할 때 |
+| [Release Checklist](../../validation/release-checklist.md) | public demo와 production claim을 분리할 때 |
+
 ## 다음 확장
 
 - retrieval이 필요하면 Track 04로 이동한다.

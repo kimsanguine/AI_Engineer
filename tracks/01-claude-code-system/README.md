@@ -138,6 +138,13 @@ my-practice-project/
 - 최소 3개 항목이 들어간 `feature_list.json`
 - 실행 또는 수동 확인 결과가 담긴 `validation-log.md`
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Behavior Contract](../../templates/behavior-contract.md) | 프로젝트별 해야 할 일, 금지 사항, 승인선을 정할 때 |
+| [Skill Spec](../../templates/skill-spec.md) | 반복 지시를 재사용 가능한 skill/command로 분리할 때 |
+
 ## 다음 확장
 
 - 반복 지시를 Track 06의 skill/command 패턴으로 분리한다.

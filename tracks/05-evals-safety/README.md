@@ -137,6 +137,16 @@ manual UI flow not tested.
 - public safety checklist 통과 기록
 - release checklist의 보류 항목 명시
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Behavior Contract](../../templates/behavior-contract.md) | 평가해야 할 required/forbidden behavior를 먼저 고정할 때 |
+| [Eval Cases JSONL](../../templates/eval-cases.jsonl) | 최소 5개 baseline eval case를 만들 때 |
+| [Eval Rubric](../../validation/eval-rubric.md) | agent example 품질을 5점 척도로 판단할 때 |
+| [Public Safety Checklist](../../validation/public-safety-checklist.md) | 공개 데이터/secret/PII 경계를 점검할 때 |
+| [Release Checklist](../../validation/release-checklist.md) | starter kit 공개 여부를 판단할 때 |
+
 ## 다음 확장
 
 - RAG 품질 평가는 Track 04의 golden set과 연결한다.

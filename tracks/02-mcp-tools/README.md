@@ -125,6 +125,14 @@ validation-log.md
 - 실패 시나리오가 포함된 validation log
 - `SOURCE_MAP.md`에 참조 source와 reuse level 기록
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Tool Spec](../../templates/tool-spec.md) | tool 이름, input schema, output contract, failure mode를 정의할 때 |
+| [Behavior Contract](../../templates/behavior-contract.md) | read/write/approval boundary를 사람과 agent의 계약으로 고정할 때 |
+| [Eval Cases JSONL](../../templates/eval-cases.jsonl) | tool 실패, 모름, 승인 필요 case를 검증 세트로 만들 때 |
+
 ## 다음 확장
 
 - 실행 가능한 `mcp-tool-agent` starter kit으로 이동한다.

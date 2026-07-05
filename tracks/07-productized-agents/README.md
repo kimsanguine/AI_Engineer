@@ -145,6 +145,14 @@ product-judgment.md
 - stop condition 3개 이상
 - build/buy/hold decision 1개
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Product Judgment](../../templates/product-judgment.md) | agent idea를 pilot, metrics, risk, build/buy/hold로 판단할 때 |
+| [Behavior Contract](../../templates/behavior-contract.md) | 제품 약속과 사람이 승인해야 하는 경계를 명확히 할 때 |
+| [Eval Cases JSONL](../../templates/eval-cases.jsonl) | product claim 전에 happy path와 실패 case를 최소 검증할 때 |
+
 ## 다음 확장
 
 - build로 결정한 항목은 `starter-kits/`로 이동한다.

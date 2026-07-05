@@ -131,6 +131,15 @@ answer-policy.md
 - answer policy 1개
 - public/private scope table 1개
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Corpus Map](../../templates/corpus-map.md) | source inventory, metadata, chunking policy, golden questions를 설계할 때 |
+| [Eval Cases JSONL](../../templates/eval-cases.jsonl) | faithfulness, no-answer, private data case를 검증 세트로 만들 때 |
+| [Public Safety Checklist](../../validation/public-safety-checklist.md) | public/private corpus 경계를 공개 전에 확인할 때 |
+| [FAQ Agent Lite](../../starter-kits/faq-agent-lite/) | 작은 공개 FAQ 검색 예제에서 시작할 때 |
+
 ## 다음 확장
 
 - retrieval 결과를 자동 평가하려면 Track 05로 이동한다.

@@ -142,6 +142,14 @@ Validation: source link count, private data scan
 - validation checklist 1개
 - 승인선과 failure handling이 포함된 운영 메모
 
+## 연결 템플릿
+
+| 템플릿 | 쓰는 시점 |
+|---|---|
+| [Skill Spec](../../templates/skill-spec.md) | 반복 업무를 skill/command로 포장할 때 |
+| [Behavior Contract](../../templates/behavior-contract.md) | 자동화가 넘으면 안 되는 승인선을 정할 때 |
+| [Tool Spec](../../templates/tool-spec.md) | 자동화가 외부 tool이나 API를 호출할 때 |
+
 ## 다음 확장
 
 - tool 연결이 필요하면 Track 02로 이동한다.

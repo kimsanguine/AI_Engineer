@@ -77,14 +77,26 @@ Claude Code를 7일 안에 업무 시스템으로 바꾸는 경로부터 시작�
 
 | 자산 | 위치 | 용도 |
 |---|---|---|
-| Harness Engineering 강의 17편 | `habix-series/lectures/` | Claude Code를 시스템으로 쓰는 한국어 강의 원천 |
-| Routine Pack | `habix-series/routine-pack/` | `CLAUDE.md`, `feature_list.json`, `progress.md` 등 실습 파일 |
-| Landing/Wireframe | `habix-series/landing/` | 공개 강의/플레이북 페이지 설계 자산 |
-| Publishing Metadata | `habix-series/metadata/` | 시리즈 발행용 chapter/nav 메타데이터 |
-| Case Study Template | `case-studies/_template/` | fork 레퍼런스를 내 관점으로 재해석하는 양식 |
-| Starter Kit Template | `starter-kits/_template/` | runnable agent kit을 추가하는 양식 |
-| Agent Lab Templates | `templates/` | behavior contract, tool spec, eval case, product judgment 등 공통 실습 양식 |
-| Validation 기준 | `validation/` | public-first, eval, release checklist |
+| Harness Engineering 강의 17편 | [habix-series/lectures/](habix-series/lectures/) | Claude Code를 시스템으로 쓰는 한국어 강의 원천 |
+| Routine Pack | [habix-series/routine-pack/](habix-series/routine-pack/) | `CLAUDE.md`, `feature_list.json`, `progress.md` 등 실습 파일 |
+| Landing/Wireframe | [habix-series/landing/](habix-series/landing/) | 공개 강의/플레이북 페이지 설계 자산 |
+| Publishing Metadata | [habix-series/metadata/](habix-series/metadata/) | 시리즈 발행용 chapter/nav 메타데이터 |
+| Case Study Template | [case-studies/_template/](case-studies/_template/) | fork 레퍼런스를 내 관점으로 재해석하는 양식 |
+| Starter Kit Template | [starter-kits/_template/](starter-kits/_template/) | runnable agent kit을 추가하는 양식 |
+| Agent Lab Templates | [templates/README.md](templates/README.md) | behavior contract, tool spec, eval case, product judgment 등 공통 실습 양식 |
+| Validation 기준 | [validation/](validation/) | public-first, eval, release checklist |
+
+## 실습 템플릿
+
+| 템플릿 | 연결 Track | 용도 |
+|---|---|---|
+| [Behavior Contract](templates/behavior-contract.md) | Track 01, 05, 07 | agent가 해야 할 일/하지 말아야 할 일/승인선을 정의 |
+| [Tool Spec](templates/tool-spec.md) | Track 02, 03 | MCP 또는 외부 도구의 입력, 출력, 실패 처리를 정의 |
+| [Eval Cases JSONL](templates/eval-cases.jsonl) | Track 05 | 정상/모름/private data/tool failure/approval case 기준선 |
+| [Product Judgment](templates/product-judgment.md) | Track 07 | agent idea를 build/buy/hold 관점으로 판단 |
+| [Skill Spec](templates/skill-spec.md) | Track 06 | 반복 업무를 skill 또는 command로 포장 |
+| [Corpus Map](templates/corpus-map.md) | Track 04 | RAG/memory corpus, metadata, golden questions 설계 |
+| [Request Lifecycle](templates/request-lifecycle.md) | Track 03 | agent backend의 상태, tool call, failure mode 설계 |
 
 ## 운영 원칙
 
@@ -101,7 +113,7 @@ Claude Code를 7일 안에 업무 시스템으로 바꾸는 경로부터 시작�
 | [ROADMAP.md](ROADMAP.md) | 4단계 개편 계획과 milestone |
 | [SOURCE_MAP.md](SOURCE_MAP.md) | fork/original source inventory와 재정의 방향 |
 | [CURATION_POLICY.md](CURATION_POLICY.md) | 어떤 레퍼런스를 어떻게 고르고 바꿀지의 기준 |
-| [docs/track-content-plan.md](docs/track-content-plan.md) | 7개 track을 실제 콘텐츠, template, starter kit, case study로 채우는 실행 기획 |
+| [templates/README.md](templates/README.md) | track별 실습 템플릿 인덱스 |
 | [validation/eval-rubric.md](validation/eval-rubric.md) | Agent 예제 품질 평가 기준 |
 | [validation/public-safety-checklist.md](validation/public-safety-checklist.md) | 공개 전 데이터/보안 점검 |
 | [validation/release-checklist.md](validation/release-checklist.md) | starter kit 공개 전 확인 사항 |
