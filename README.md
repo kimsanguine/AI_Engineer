@@ -83,6 +83,7 @@ Claude Code를 7일 안에 업무 시스템으로 바꾸는 경로부터 시작�
 | Publishing Metadata | `habix-series/metadata/` | 시리즈 발행용 chapter/nav 메타데이터 |
 | Case Study Template | `case-studies/_template/` | fork 레퍼런스를 내 관점으로 재해석하는 양식 |
 | Starter Kit Template | `starter-kits/_template/` | runnable agent kit을 추가하는 양식 |
+| Agent Lab Templates | `templates/` | behavior contract, tool spec, eval case, product judgment 등 공통 실습 양식 |
 | Validation 기준 | `validation/` | public-first, eval, release checklist |
 
 ## 운영 원칙
@@ -100,6 +101,7 @@ Claude Code를 7일 안에 업무 시스템으로 바꾸는 경로부터 시작�
 | [ROADMAP.md](ROADMAP.md) | 4단계 개편 계획과 milestone |
 | [SOURCE_MAP.md](SOURCE_MAP.md) | fork/original source inventory와 재정의 방향 |
 | [CURATION_POLICY.md](CURATION_POLICY.md) | 어떤 레퍼런스를 어떻게 고르고 바꿀지의 기준 |
+| [docs/track-content-plan.md](docs/track-content-plan.md) | 7개 track을 실제 콘텐츠, template, starter kit, case study로 채우는 실행 기획 |
 | [validation/eval-rubric.md](validation/eval-rubric.md) | Agent 예제 품질 평가 기준 |
 | [validation/public-safety-checklist.md](validation/public-safety-checklist.md) | 공개 전 데이터/보안 점검 |
 | [validation/release-checklist.md](validation/release-checklist.md) | starter kit 공개 전 확인 사항 |
