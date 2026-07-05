@@ -59,13 +59,13 @@ Claude Code가 매번 같은 기준을 읽게 만들면, 답변 품질보다 작
 
 | Day | 주제 | 읽을 자료 | 활동 | 산출물 | 검증 |
 |---|---|---|---|---|---|
-| 1 | Setup and delegation mindset | `ch00a`, `ch00b`, `ch00c`, `ch01` | 실습 폴더를 만들고 오늘 맡길 업무 1개를 고른다 | 실습 폴더, 업무 설명 1개 | Claude Code가 폴더를 읽고 5줄 요약 |
-| 2 | Project memory | `ch02`, `ch03`, `ch04` | 프로젝트 규칙, 대상 사용자, 금지 사항을 적는다 | `CLAUDE.md` 초안 | 새 세션에서 같은 설명 없이 작업 방향을 맞춘다 |
-| 3 | Progress memory | `ch05`, `ch06` | 어제/오늘/다음 작업을 기록한다 | `progress.md` 첫 항목 | 다음 명령이 한 줄로 남아 있다 |
-| 4 | Boundaries and scope | `ch07`, `ch08` | 할 일, 안 할 일, 보류할 일을 나눈다 | `feature_list.json` | scope 밖 요청을 거절하거나 보류한다 |
-| 5 | Verification ladder | `ch09`, `ch10` | 수동 검증과 자동 검증을 분리한다 | `validation-log.md` | 명령, 화면, 파일 중 최소 1개 증거 기록 |
-| 6 | Operating windows | `ch11`, `ch12` | 세션 종료 루틴을 만든다 | `session-end-checklist.md` | 종료 후에도 다음 사람이 이어갈 수 있다 |
-| 7 | System refactor | `ch13`, `capstone` | 반복 요청을 파일/명령/체크리스트로 흡수한다 | 30일 루틴 계획 | 같은 설명을 반복하는 빈도가 줄어든다 |
+| 1 | Setup and delegation mindset | [ch00a](../../habix-series/lectures/ch00a-the-mindset-of-delegation.md), [ch00b](../../habix-series/lectures/ch00b-15-words-week-one.md), [ch00c](../../habix-series/lectures/ch00c-pick-your-tool-stack.md), [ch01](../../habix-series/lectures/ch01-why-smart-ai-cant-finish.md) | 실습 폴더를 만들고 오늘 맡길 업무 1개를 고른다 | 실습 폴더, 업무 설명 1개 | Claude Code가 폴더를 읽고 5줄 요약 |
+| 2 | Project memory | [ch02](../../habix-series/lectures/ch02-set-up-the-workshop.md), [ch03](../../habix-series/lectures/ch03-let-the-folder-remember.md), [ch04](../../habix-series/lectures/ch04-claude-md-one-page.md) | 프로젝트 규칙, 대상 사용자, 금지 사항을 적는다 | [CLAUDE.md](../../habix-series/routine-pack/CLAUDE.md) 초안 | 새 세션에서 같은 설명 없이 작업 방향을 맞춘다 |
+| 3 | Progress memory | [ch05](../../habix-series/lectures/ch05-leave-notes-for-tomorrow.md), [ch06](../../habix-series/lectures/ch06-five-minute-briefing.md) | 어제/오늘/다음 작업을 기록한다 | [progress.md](../../habix-series/routine-pack/progress.md) 첫 항목 | 다음 명령이 한 줄로 남아 있다 |
+| 4 | Boundaries and scope | [ch07](../../habix-series/lectures/ch07-stop-ai-from-overreaching.md), [ch08](../../habix-series/lectures/ch08-feature-list-changes-everything.md) | 할 일, 안 할 일, 보류할 일을 나눈다 | [feature_list.json](../../habix-series/routine-pack/feature_list.json) | scope 밖 요청을 거절하거나 보류한다 |
+| 5 | Verification ladder | [ch09](../../habix-series/lectures/ch09-no-victory-without-evidence.md), [ch10](../../habix-series/lectures/ch10-click-like-a-real-user.md) | 수동 검증과 자동 검증을 분리한다 | `validation-log.md` | 명령, 화면, 파일 중 최소 1개 증거 기록 |
+| 6 | Operating windows | [ch11](../../habix-series/lectures/ch11-window-into-ai.md), [ch12](../../habix-series/lectures/ch12-clean-exit.md) | 세션 종료 루틴을 만든다 | [session-end-checklist.md](../../habix-series/routine-pack/session-end-checklist.md) | 종료 후에도 다음 사람이 이어갈 수 있다 |
+| 7 | System refactor | [ch13](../../habix-series/lectures/ch13-refactor-your-routine-files.md), [capstone](../../habix-series/lectures/capstone-30-day-routine-challenge.md) | 반복 요청을 파일/명령/체크리스트로 흡수한다 | 30일 루틴 계획 | 같은 설명을 반복하는 빈도가 줄어든다 |
 
 ## 실습 1 — 빈 프로젝트에 Routine Pack 적용
 
@@ -73,12 +73,12 @@ Claude Code가 매번 같은 기준을 읽게 만들면, 답변 품질보다 작
 
 - 빈 폴더 1개
 - 오늘 처리할 작은 업무 1개
-- `habix-series/routine-pack/`의 5개 파일
+- [habix-series/routine-pack/](../../habix-series/routine-pack/)의 5개 파일
 
 ### 절차
 
 1. 새 실습 폴더를 만든다.
-2. `habix-series/routine-pack/`의 5개 파일을 복사한다.
+2. [habix-series/routine-pack/](../../habix-series/routine-pack/)의 5개 파일을 복사한다.
 3. `CLAUDE.md`에서 프로젝트명, 대상 사용자, 금지 사항을 채운다.
 4. `feature_list.json`에 첫 업무 후보 3개를 적는다.
 5. Claude Code에게 "이 폴더를 읽고 오늘 시작할 가장 작은 작업을 골라줘"라고 요청한다.

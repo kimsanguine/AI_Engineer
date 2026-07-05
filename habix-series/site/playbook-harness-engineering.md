@@ -110,11 +110,12 @@ og_image: /assets/harness-engineering/og/series-cover.png
 
 이 시리즈가 17편에 걸쳐 인용한 외부 자료입니다. 더 깊이 파고 싶으신 챕터의 *참고* 섹션에서 다시 만나실 수 있습니다.
 
-- **Eugene Yan**, *How to Work and Compound with AI* — eugeneyan.com/writing/working-with-ai/ — 시리즈 전체를 관통하는 한 문장 *"You can't delegate what you can't verify."*의 출처. 트랜스크립트 마이닝·관측·검증 사다리의 사고 틀을 제공.
-- **Andrej Karpathy**, *CLAUDE.md 4원칙* — Ch.04의 행동 가이드 원형. 의도·제약·검증·간결성의 4가지 행동 원칙.
-- **Anthropic**, *Claude Code best practices: living context files* — `CLAUDE.md` 컨벤션과 `AGENTS.md` 호환 표준의 공식 문서.
-- **Anthropic**, *Claude Opus 4.5 시스템 카드 및 모델 카드* — Ch.01의 *같은 모델, 다른 결과* 공개 실험의 1차 출처.
-- **Walking Labs**, *Learn Harness Engineering (한국어)* — walkinglabs.github.io/learn-harness-engineering/ko/ — 본 시리즈가 비개발자용으로 다시 쓴 원본 강의 시퀀스.
+- **Eugene Yan**, [*How to Work and Compound with AI*](https://eugeneyan.com/writing/working-with-ai/) — 검증, 관측, 트랜스크립트 마이닝 사고의 참고 자료.
+- **Anthropic**, [Claude Code overview](https://code.claude.com/docs/en/overview) — Claude Code를 terminal, IDE, desktop, browser에서 쓰는 공식 제품 개요.
+- **Anthropic**, [Claude Code memory / `CLAUDE.md`](https://code.claude.com/docs/en/memory) — `CLAUDE.md`와 project memory를 다루는 공식 문서.
+- **Anthropic**, [Claude Opus 4.5 system card](https://www.anthropic.com/claude-opus-4-5-system-card) — Ch.01의 모델/하네스 논의를 뒷받침하는 Anthropic 공식 시스템 카드.
+- **Karpathy-inspired community reference**, [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — Ch.04의 행동 원칙 참고. 공식 1차 문서가 아니므로 코드나 문구를 복사하지 않고 원칙 수준에서만 참고.
+- **Walking Labs**, [Learn Harness Engineering (한국어)](https://walkinglabs.github.io/learn-harness-engineering/ko/) — 본 시리즈가 비개발자용으로 다시 쓴 원본 강의 시퀀스.
 
 ## Next Playbooks
 

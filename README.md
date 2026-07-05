@@ -52,6 +52,14 @@ Engineering Lab입니다.
 "100개가 이미 있다"가 아니라 "100개 업무형 agent 패턴으로 확장하는
 검증 가능한 Lab"입니다.
 
+## 핵심 플레이북
+
+| Playbook | 대상 | 시작점 |
+|---|---|---|
+| [Harness Engineering Playbook](habix-series/README.md) | Claude Code를 업무 시스템으로 쓰고 싶은 PM/1인 빌더 | 17편 강의 + Routine Pack |
+| [Track 01: Claude Code System](tracks/01-claude-code-system/) | 7일 실습 경로로 압축해서 따라가고 싶은 사람 | 7일 학습 경로 |
+| [Routine Pack](habix-series/routine-pack/) | 바로 프로젝트에 복사해 쓸 파일이 필요한 사람 | `CLAUDE.md`, `feature_list.json`, `progress.md` |
+
 ## 7개 Track
 
 | Track | 질문 | 현재 상태 |
@@ -66,18 +74,19 @@ Engineering Lab입니다.
 
 ## 먼저 시작할 곳
 
-Claude Code를 7일 안에 업무 시스템으로 바꾸는 경로부터 시작합니다.
+Claude Code를 업무 시스템으로 바꾸는 경로부터 시작합니다.
 
-1. [Track 01: Claude Code System](tracks/01-claude-code-system/)을 읽습니다.
-2. `habix-series/routine-pack/`의 5개 파일을 빈 프로젝트에 복사합니다.
-3. `CLAUDE.md`, `feature_list.json`, `progress.md`를 채웁니다.
-4. 작은 업무 하나를 정해 실행하고, 결과를 `validation-log.md`로 남깁니다.
+1. 전체 맥락이 필요하면 [Harness Engineering Playbook](habix-series/README.md)의 17편 인덱스를 읽습니다.
+2. 빠르게 실습하려면 [Track 01: Claude Code System](tracks/01-claude-code-system/)의 7일 경로를 따릅니다.
+3. [Routine Pack](habix-series/routine-pack/)의 5개 파일을 빈 프로젝트에 복사합니다.
+4. `CLAUDE.md`, `feature_list.json`, `progress.md`를 채웁니다.
+5. 작은 업무 하나를 정해 실행하고, 결과를 `validation-log.md`로 남깁니다.
 
 ## 현재 포함된 주요 자산
 
 | 자산 | 위치 | 용도 |
 |---|---|---|
-| Harness Engineering 강의 17편 | [habix-series/lectures/](habix-series/lectures/) | Claude Code를 시스템으로 쓰는 한국어 강의 원천 |
+| Harness Engineering 강의 17편 | [habix-series/README.md](habix-series/README.md) | Claude Code를 시스템으로 쓰는 한국어 강의 원천 |
 | Routine Pack | [habix-series/routine-pack/](habix-series/routine-pack/) | `CLAUDE.md`, `feature_list.json`, `progress.md` 등 실습 파일 |
 | Landing/Wireframe | [habix-series/landing/](habix-series/landing/) | 공개 강의/플레이북 페이지 설계 자산 |
 | Publishing Metadata | [habix-series/metadata/](habix-series/metadata/) | 시리즈 발행용 chapter/nav 메타데이터 |
@@ -113,6 +122,7 @@ Claude Code를 7일 안에 업무 시스템으로 바꾸는 경로부터 시작�
 | [ROADMAP.md](ROADMAP.md) | 4단계 개편 계획과 milestone |
 | [SOURCE_MAP.md](SOURCE_MAP.md) | fork/original source inventory와 재정의 방향 |
 | [CURATION_POLICY.md](CURATION_POLICY.md) | 어떤 레퍼런스를 어떻게 고르고 바꿀지의 기준 |
+| [habix-series/README.md](habix-series/README.md) | Harness Engineering 17편 강의와 Routine Pack 인덱스 |
 | [templates/README.md](templates/README.md) | track별 실습 템플릿 인덱스 |
 | [validation/eval-rubric.md](validation/eval-rubric.md) | Agent 예제 품질 평가 기준 |
 | [validation/public-safety-checklist.md](validation/public-safety-checklist.md) | 공개 전 데이터/보안 점검 |
