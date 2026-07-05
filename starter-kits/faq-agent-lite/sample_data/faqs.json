@@ -1,0 +1,34 @@
+{
+  "company": "ACME Life",
+  "data_type": "synthetic",
+  "faqs": [
+    {
+      "id": "FAQ-001",
+      "category": "billing",
+      "question": "Can I change my billing date?",
+      "answer": "Yes. In this fictional ACME Life sample, customers can request one billing-date change per month before the next invoice is issued.",
+      "tags": ["billing", "payment", "date"]
+    },
+    {
+      "id": "FAQ-002",
+      "category": "policy",
+      "question": "Where can I find my policy summary?",
+      "answer": "In this sample, the policy summary is available in the customer portal under Documents. This is fictional guidance for training only.",
+      "tags": ["policy", "documents", "portal"]
+    },
+    {
+      "id": "FAQ-003",
+      "category": "claims",
+      "question": "How do I submit a simple claim?",
+      "answer": "For this synthetic example, a customer opens the Claims page, uploads the required public sample document, and waits for operator review.",
+      "tags": ["claims", "upload", "review"]
+    },
+    {
+      "id": "FAQ-004",
+      "category": "security",
+      "question": "Should I send personal identifiers to the AI assistant?",
+      "answer": "No. Do not send real customer names, resident registration numbers, policy numbers, phone numbers, addresses, or payment information to the AI assistant.",
+      "tags": ["security", "pii", "privacy"]
+    }
+  ]
+}

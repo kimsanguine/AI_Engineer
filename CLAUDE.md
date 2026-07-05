@@ -1,8 +1,14 @@
 # CLAUDE.md — AI_Engineer Project
 
 ## Project Context
-This repository contains the habix-series: a Korean-language lecture series on Harness Engineering
-for non-developers, 1-person builders, and PMs. Main message:
+This repository is being reorganized as **AI Engineer — Agent Engineering Lab**.
+It curates strong AI agent / Claude Code / MCP / RAG references, then reframes
+them through Korean-language practice, PM judgment, runnable starter kits, and
+validation logs.
+
+The existing `habix-series` remains the first major content asset: a
+Korean-language lecture series on Harness Engineering for non-developers,
+1-person builders, and PMs. Main message:
 "Claude Code가 일을 끝까지 못 끝낸다면, 모델이 아니라 하네스가 문제입니다."
 
 ## Voice and Style
@@ -36,6 +42,15 @@ for non-developers, 1-person builders, and PMs. Main message:
 - Loop until verified; don't declare done without checking.
 
 ## File Map
+- `README.md` — public positioning for Agent Engineering Lab
+- `ROADMAP.md` — phased rework plan
+- `SOURCE_MAP.md` — source/fork inventory and reframe direction
+- `CURATION_POLICY.md` — reuse, license, and public-first policy
+- `tracks/` — 7 learning tracks
+- `case-studies/` — source reference reinterpretations
+- `starter-kits/` — runnable agent examples
+- `validation/` — eval, public safety, and release checklists
+- `agents/` — long-term 100-agent expansion space
 - `habix-series/lectures/` — 17 lecture files (ch00a through ch13 + capstone)
 - `habix-series/routine-pack/` — 5 harness assets (CLAUDE.md, feature_list.json, progress.md, intent_sheet.md, session-end-checklist.md)
 - `habix-series/landing/` — Landing page copy + wireframe
